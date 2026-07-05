@@ -1,3 +1,6 @@
+# -----------------------------------------------------------------------------
+# HARDWARE (KICAD)
+# -----------------------------------------------------------------------------
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -33,11 +36,44 @@ fp-info-cache
 *.xml
 *.csv
 
+# Whitelist production files directory
+!**/jlcpcb/production_files/
+!**/jlcpcb/production_files/**
+
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
-# Local git-based history (KiCad 9.0+)
-.history
-
 # Local project settings
 *.kicad_prl
+
+# -----------------------------------------------------------------------------
+# FIRMWARE
+# -----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+compile_commands.json
+
+# Build files
+build
+.dockerfile.hash
+.cache
+/can/CANMetaData.*
+Madefile
+
+# Python
+*venv
+__pycache__/
+.env
+
+# Nix
+flake.lock
+
+# Documentation toolset
+docs/doxygen/
+site/*
+!site/empty.a
+Zone.Identifier
+
+# Mac specific files
+.DS_Store
