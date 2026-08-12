@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SuppCharger")(type "KiCad")(uri "${KIPRJMOD}/ul_BQ25756ERRVR/KiCADv6/BQ25756E.kicad_sym")(options "")(descr ""))
+)
