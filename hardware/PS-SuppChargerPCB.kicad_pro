@@ -16,7 +16,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -444,6 +444,18 @@
     [
       "4f677729-5b7c-4d23-89cb-5747a5a016ae",
       "PS-SuppChargerPCB"
+    ],
+    [
+      "9545dafc-a8a6-4d3e-ac24-2971994149d7",
+      "Charge Controller"
+    ],
+    [
+      "381810ad-2ac1-489d-8b16-ec54b27614dc",
+      "USB-C Input"
+    ],
+    [
+      "ea166c7e-447c-473d-886d-7e499693e714",
+      "HVDCDC Input"
     ]
   ],
   "text_variables": {},
