@@ -7324,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25756e"
+		(property "Datasheet" "kicad-embed://BQ25750.PDF"
 			(at 27.94 142.24 0)
 			(hide yes)
 			(show_name no)
