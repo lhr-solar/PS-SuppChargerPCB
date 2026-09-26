@@ -33,8 +33,6 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
 
 # Whitelist production files directory
 !**/jlcpcb/production_files/
@@ -77,3 +75,4 @@ Zone.Identifier
 
 # Mac specific files
 .DS_Store
+.history*
