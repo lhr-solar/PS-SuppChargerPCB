@@ -26231,6 +26231,16 @@
 		)
 		(uuid "0537036e-bb53-4cb1-a3e5-4bd80562a0d9")
 	)
+	(text "i2c needs pullup resistors in general\n"
+		(exclude_from_sim no)
+		(at 222.758 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13afcb27-eebf-4567-86db-196c933c8041")
+	)
 	(text "Put testpoints or no connect on output labels."
 		(exclude_from_sim no)
 		(at 138.43 37.338 0)
@@ -26436,6 +26446,16 @@
 			(justify left top)
 		)
 		(uuid "762b6d58-218e-4d1a-9023-c89322ff9a25")
+	)
+	(text "put on mcu i2c\n"
+		(exclude_from_sim no)
+		(at 202.946 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76e0e906-67fa-4f8f-a098-2b8bf24b50b2")
 	)
 	(text "Fault LED: on if PD faults\n(failed negotiation or\novervoltage protection fault)"
 		(exclude_from_sim no)

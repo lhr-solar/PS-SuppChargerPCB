@@ -614,6 +614,16 @@
 		)
 		(uuid "43b68b5e-c1c9-4b97-bd99-4d5d8d7d591f")
 	)
+	(text "make it non isolated"
+		(exclude_from_sim no)
+		(at 214.376 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66065afa-96f5-4848-b581-325e5ecfc57c")
+	)
 	(text "Use a 10× probe or a DMM"
 		(exclude_from_sim no)
 		(at 71.628 75.692 0)
@@ -965,6 +975,16 @@
 			(type default)
 		)
 		(uuid "f60842df-9a05-4b6f-ac4d-a6c22278e941")
+	)
+	(label "look at bps leader"
+		(at 205.74 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1882e072-1425-4010-b86c-cf53035c4556")
 	)
 	(hierarchical_label "SENSE_OUT"
 		(shape output)

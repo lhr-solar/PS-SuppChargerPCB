@@ -509,6 +509,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text " TFT LCD Display Module Screen - 2.0in., 240x320 (SPI Interface) \n"
+		(exclude_from_sim no)
+		(at 131.318 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "099f1d26-5345-478f-8d4e-0f0861a90427")
+	)
+	(text "highletgo display"
+		(exclude_from_sim no)
+		(at 129.54 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17fe9bb1-54b1-42d0-bdd3-97bbea0fd854")
+	)
 	(text "VSS 0.1V input"
 		(exclude_from_sim no)
 		(at 112.776 115.316 0)
@@ -519,6 +539,16 @@
 		)
 		(uuid "1dc7dc75-dabe-48dd-aff4-3f7e616f090c")
 	)
+	(text "stack 3 diodes to make 2.9v? cant do voltage divider\n"
+		(exclude_from_sim no)
+		(at 120.65 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "477f9db0-4e3d-4831-b05a-882fd706be4e")
+	)
 	(text "LED+ 2.9V Input"
 		(exclude_from_sim no)
 		(at 112.776 118.11 0)
@@ -528,6 +558,16 @@
 			)
 		)
 		(uuid "8720fa1e-1019-41e4-862f-259a38bbcb92")
+	)
+	(text "change display and go from there:"
+		(exclude_from_sim no)
+		(at 157.48 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc830c36-23ca-4931-98bf-f43b902ea3c3")
 	)
 	(junction
 		(at 91.44 91.44)

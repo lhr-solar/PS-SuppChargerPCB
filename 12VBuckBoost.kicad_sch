@@ -1217,6 +1217,16 @@
 		)
 		(uuid "6b008f7a-252a-460c-a2ee-056747007c1a")
 	)
+	(text "look at bps leader"
+		(exclude_from_sim no)
+		(at 43.688 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b9da23e-fa23-47a0-b868-48fa775a0922")
+	)
 	(text "C4"
 		(exclude_from_sim no)
 		(at 135.89 18.796 0)

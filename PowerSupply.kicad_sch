@@ -5,4 +5,24 @@
 	(uuid "a4d760ef-06d6-4707-88c3-0d3a285de9bd")
 	(paper "A4")
 	(lib_symbols)
+	(text "make them bananajacks in footprint"
+		(exclude_from_sim no)
+		(at 116.332 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ec67522-4a11-4971-9d26-17147a7d2837")
+	)
+	(text "two one by one connectors\n"
+		(exclude_from_sim no)
+		(at 117.094 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1cae0f1-f7e3-44fe-8566-10062b82d806")
+	)
 )

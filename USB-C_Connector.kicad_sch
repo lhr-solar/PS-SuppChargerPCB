@@ -1932,7 +1932,7 @@
 		)
 		(uuid "2a48ed1f-dc7d-4c38-bbcc-b1417c5f4741")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 55.88 49.53 0)
 		(effects
@@ -1987,7 +1987,7 @@
 		)
 		(uuid "4d9e1693-38c4-48c2-97ae-99445c572898")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 55.88 44.45 0)
 		(effects

@@ -3089,6 +3089,16 @@
 		)
 		(uuid "b4b43135-fab8-4ee4-96ed-b1423f688fc3")
 	)
+	(label "diode or gate instead? normal beefy shocky diode would probably be fine"
+		(at 181.61 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d770234d-1e4a-493e-9f4d-a87b41db0d39")
+	)
 	(label "CP2"
 		(at 112.395 82.55 0)
 		(effects
@@ -3098,6 +3108,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0af0940-6552-4c7a-ac7b-655c6f1c5645")
+	)
+	(label "basically diode on each end of each output and then outputs are tied together"
+		(at 184.15 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f734bba6-86f3-40cd-adbb-85b3e7b2c9a4")
 	)
 	(hierarchical_label "GND"
 		(shape input)
