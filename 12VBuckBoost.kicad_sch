@@ -8294,23 +8294,25 @@
 		(fields_autoplaced yes)
 		(uuid "95cd0411-82e5-40be-a0a1-1ba86ba552dd")
 		(property "Reference" "IC2"
-			(at 147.32 46.736 0)
+			(at 150.7333 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS552872RYQR"
-			(at 147.32 49.276 0)
+			(at 150.7333 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TPS552892QWRYQRQ1"

@@ -509,6 +509,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VSS 0.1V input"
+		(exclude_from_sim no)
+		(at 112.776 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dc7dc75-dabe-48dd-aff4-3f7e616f090c")
+	)
+	(text "LED+ 2.9V Input"
+		(exclude_from_sim no)
+		(at 112.776 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8720fa1e-1019-41e4-862f-259a38bbcb92")
+	)
 	(junction
 		(at 91.44 91.44)
 		(diameter 0)
@@ -593,7 +613,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 124.46 85.09)
+			(xy 111.76 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -741,8 +761,8 @@
 		)
 		(uuid "fe41c932-0ae0-4a4f-a82c-d61fe3ef91e5")
 	)
-	(label "V0"
-		(at 110.49 85.09 180)
+	(label "V0_0V1"
+		(at 111.76 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -751,7 +771,7 @@
 		)
 		(uuid "42b2b0a8-5ff9-4361-8a63-4d73359fa9b8")
 	)
-	(label "LED+"
+	(label "LEV_2V9"
 		(at 165.1 95.25 0)
 		(effects
 			(font
@@ -761,7 +781,7 @@
 		)
 		(uuid "4695d293-c013-41f6-b0ff-76df811a64c2")
 	)
-	(label "V0"
+	(label "V0_0V1"
 		(at 72.39 91.44 0)
 		(effects
 			(font
@@ -771,7 +791,7 @@
 		)
 		(uuid "f13e687a-7fd5-433d-b8c5-32510d1e1c9d")
 	)
-	(label "LED+"
+	(label "LED_2V9"
 		(at 93.98 91.44 0)
 		(effects
 			(font
