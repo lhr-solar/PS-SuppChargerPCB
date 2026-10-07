@@ -575,7 +575,7 @@
 		)
 		(uuid "57b24757-2886-4edd-a8cc-97b44950442d")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "DS_Vin"
 		(shape input)
 		(at 102.87 74.93 180)
 		(effects

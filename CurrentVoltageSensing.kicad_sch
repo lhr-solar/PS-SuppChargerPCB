@@ -301,36 +301,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OBBB Symbols:TMCS1107A3BQDR"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "PS-SuppCharger_Library:TMCS1170"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U14"
-				(at 17.78 9.398 0)
+			(property "Reference" "U"
+				(at 0 9.144 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TMCS1107A3BQDR"
-				(at 17.78 6.858 0)
+			(property "Value" "TMCS1170"
+				(at 0 7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "D0008A-IPC_A"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -338,11 +335,10 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tmcs1107"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmcs1170.pdf?ts=1791411836090&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1170"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -350,7 +346,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
@@ -365,65 +360,9 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TMCS1107A3BQDR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D0008A-IPC_A D0008A-IPC_B D0008A-IPC_C D0008A-MFG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TMCS1107A3BQDR_0_1"
-				(polyline
-					(pts
-						(xy 16.51 1.905) (xy 16.51 -15.875)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 1.905) (xy 19.05 -15.875)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 0 0)
+			(symbol "TMCS1170_0_0"
+				(pin input line
+					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "IN+"
 						(effects
@@ -440,9 +379,97 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -2.54 0)
+				(pin output line
+					(at 10.16 3.81 180)
 					(length 2.54)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TMCS1170_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TMCS1170_1_0"
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(hide yes)
 					(name "IN+"
 						(effects
 							(font
@@ -458,8 +485,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -11.43 0)
+				(pin input line
+					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "IN-"
 						(effects
@@ -476,9 +503,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -13.97 0)
+				(pin input line
+					(at -10.16 1.27 0)
 					(length 2.54)
+					(hide yes)
 					(name "IN-"
 						(effects
 							(font
@@ -495,7 +523,7 @@
 					)
 				)
 				(pin power_in line
-					(at 33.02 -13.97 180)
+					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -512,46 +540,11 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 33.02 -10.16 180)
+				(pin input line
+					(at 10.16 1.27 180)
 					(length 2.54)
+					(hide yes)
 					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 33.02 -5.08 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 33.02 0 180)
-					(length 2.54)
-					(name "VS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,56 +559,61 @@
 						)
 					)
 				)
-			)
-			(symbol "TMCS1107A3BQDR_1_1"
-				(rectangle
-					(start 5.08 5.08)
-					(end 30.48 -19.05)
-					(stroke
-						(width 0.254)
-						(type default)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type background)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
 	)
-	(text "TMCS1107A2U\n100 mV/A, V_OUT = 0.33V + 0.1 × I\nRange: −2.8A to 27.7A"
-		(exclude_from_sim no)
-		(at 129.54 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1cec26f9-aa80-484b-87ef-01e37e377545")
-	)
-	(text "look at bps leader"
-		(exclude_from_sim no)
-		(at 223.774 103.378 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "275aaea7-78d4-4b78-ba76-e86fa88c308d")
-	)
 	(text "place close to VS pin\nLow ESR"
 		(exclude_from_sim no)
-		(at 191.008 85.598 0)
+		(at 201.422 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4208ef12-85a3-428e-a189-de8e40c07911")
+		(uuid "23966421-5789-4af9-bc63-9b4a97a3b3ce")
 	)
-	(text "Divider of 11\nMax SuppReg Voltage = 25, divided = 2.27V\nMin supp Voltage = 23.9, divided = 2.27V\n"
+	(text "Divider of 11\nMax SuppReg Voltage = 14.7, divided = 2.27V\nMin supp Voltage = 12, divided = 2.27V\n"
 		(exclude_from_sim no)
-		(at 75.692 106.934 0)
+		(at 74.422 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -624,211 +622,173 @@
 		)
 		(uuid "43b68b5e-c1c9-4b97-bd99-4d5d8d7d591f")
 	)
-	(text "make it non isolated"
-		(exclude_from_sim no)
-		(at 214.376 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "66065afa-96f5-4848-b581-325e5ecfc57c")
-	)
-	(text "Use a 10× probe or a DMM"
-		(exclude_from_sim no)
-		(at 71.628 75.692 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8baa9a37-2afb-48bf-b3b3-610a34107642")
-	)
-	(text "Use a 10× probe or a DMM"
-		(exclude_from_sim no)
-		(at 175.26 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9dcac8d5-c7bd-4485-b323-df1000271576")
-	)
-	(text "use 1% resistors for dividers"
-		(exclude_from_sim no)
-		(at 90.424 64.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "caa4378a-2676-4714-be51-62d825de6584")
-	)
 	(junction
-		(at 93.98 82.55)
+		(at 180.34 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "355b39a3-1c7e-4a9a-bf63-10a02189c1e5")
+		(uuid "4adcb7d7-f353-4f30-87bc-13ddf8246f3f")
 	)
 	(junction
-		(at 156.21 85.09)
+		(at 93.98 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4baa858d-06f6-4831-9279-6dc6c7f2024b")
+		(uuid "671a0082-d317-4aa0-85ae-aef7b9819d9d")
 	)
 	(junction
-		(at 113.03 68.58)
+		(at 86.36 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7633190b-d085-46b8-bf66-a6b22a706774")
+		(uuid "71f25777-6852-457e-afed-12a9c462b535")
 	)
 	(junction
-		(at 93.98 68.58)
+		(at 156.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90e877cf-d14b-48f3-afdb-30424a8ba1f9")
+		(uuid "83c883ea-d56e-4c90-b36e-50dec40f0b46")
 	)
 	(junction
-		(at 86.36 82.55)
+		(at 93.98 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a81c6b5d-a69f-4693-ae27-1ede7f2b4a1d")
+		(uuid "8de1a2f9-78a5-4d0b-bb1d-70026a6678c1")
 	)
-	(junction
-		(at 93.98 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9689d0d-bda9-46b9-90ef-f7d5bb0bc155")
-	)
-	(junction
-		(at 114.3 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcef9754-e3a1-401d-8eb2-48e07e806680")
+	(no_connect
+		(at 153.67 80.01)
+		(uuid "79895b15-5316-42dd-9ff1-f851590351c0")
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 113.03 68.58)
+			(xy 180.34 85.09) (xy 180.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "167650d2-740c-433d-b29e-818bc1aceac1")
+		(uuid "02426653-c854-4130-bf95-9bc1e051ff1b")
 	)
 	(wire
 		(pts
-			(xy 86.36 91.44) (xy 86.36 95.25)
+			(xy 129.54 87.63) (xy 133.35 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34cc0d95-22fc-4899-a47f-ada8241316ea")
+		(uuid "0d661ab0-74a7-417d-aad6-ffd42d78417a")
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 113.03 68.58)
+			(xy 93.98 77.47) (xy 93.98 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35151466-6dbe-4589-9110-3821b1923017")
+		(uuid "122cdd7d-7b42-4bb8-b3d4-a7096b64938e")
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 93.98 82.55)
+			(xy 156.21 97.79) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52e76741-0f40-42eb-8771-43b9852a5f78")
+		(uuid "215bb0d0-fad1-4583-8a1e-3bc3ccfab189")
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 147.32 82.55)
+			(xy 180.34 82.55) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "631da086-0dde-4c00-b069-02a631e731e8")
+		(uuid "2363469e-90e4-4e6f-8643-660d3a4d187d")
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 147.32 78.74)
+			(xy 153.67 87.63) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "682bca66-863c-463a-8dfc-8f1925686c7b")
+		(uuid "2a647436-2823-456a-b36e-da1bb47ac7d5")
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 86.36 82.55)
+			(xy 129.54 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aca054e-2830-4660-a509-172a1ba06c90")
+		(uuid "2a748a0f-cec9-4fad-b0b9-83ac7f648878")
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 156.21 87.63)
+			(xy 129.54 82.55) (xy 133.35 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fec549f-4963-44a3-9b31-ae048b0f98b1")
+		(uuid "313cb7dd-487f-4d54-b8ab-cd35b4b9eec5")
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 93.98 85.09)
+			(xy 180.34 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "739d79b9-a739-4247-9d01-a52d0f83280c")
+		(uuid "3f9c0230-3cbf-487a-98e4-aea1985d132e")
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 144.78 78.74)
+			(xy 93.98 100.33) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74dfa4b8-3c5e-4b8b-b1b0-3b40790717ce")
+		(uuid "50ffe5d6-4cdc-44e4-8cc7-16acfa7e1155")
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 156.21 85.09)
+			(xy 86.36 91.44) (xy 86.36 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f906ffa-6a25-4650-b09e-daac9f46f5cd")
+		(uuid "57c5cec6-6e3e-43ff-bae2-5df19593c17c")
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 93.98 82.55)
+			(xy 153.67 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80dd96a6-3c31-4c63-8697-c4e2b44af994")
+		(uuid "77cd4cf5-a6e3-4979-a0d7-348a95384e87")
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 175.26 76.2)
+			(xy 86.36 96.52) (xy 86.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83838152-246f-4a04-8e13-5f1bdd72af2f")
+	)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 156.21 90.17)
 		)
 		(stroke
 			(width 0)
@@ -838,168 +798,149 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 80.01)
+			(xy 86.36 87.63) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89caea91-4ff7-410d-8980-e9cd823952a2")
+		(uuid "8d233289-7575-4b3a-b4e6-84b902f9f8c6")
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 83.82 82.55)
+			(xy 153.67 85.09) (xy 156.21 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96f1f3fa-e18a-450b-b7ef-d80529c87eb2")
+		(uuid "8d87b6e3-7811-4686-b181-a7b5b97dcd44")
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 156.21 95.25)
+			(xy 156.21 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9db00e21-b880-4641-94de-f6cb5747ede9")
+		(uuid "8db58df2-99df-4ebc-aa61-97c220c59f08")
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 160.02 85.09)
+			(xy 180.34 92.71) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1855eac-8872-43c4-a0b3-6404b84a28ab")
+		(uuid "8e78b1fa-9bab-4f19-8ba1-8ba06dfab5a5")
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 114.3 68.58)
+			(xy 93.98 87.63) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a33a7861-4877-42d6-b1b8-3ede5157a961")
+		(uuid "9a6ba151-ad2d-4aa3-a62d-8baf0741d8c9")
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 95.25 95.25)
+			(xy 93.98 85.09) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3d959ed-93e6-4613-87c6-dffc1a215c52")
+		(uuid "ab78d5cc-dd94-4f9b-a79c-ea31c4587979")
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 156.21 73.66)
+			(xy 86.36 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5fa8dbe-7090-4234-ac48-e1d7ca3051e6")
+		(uuid "b4b2c341-330c-4c2b-bef6-da19a9242f44")
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 93.98 68.58)
+			(xy 93.98 97.79) (xy 93.98 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba555219-543d-4f3d-8fb6-aa4e9726ded2")
+		(uuid "d75c0c57-0ed5-4bc2-92cc-bb8a6e7b5a01")
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 151.13 68.58)
+			(xy 86.36 100.33) (xy 93.98 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d21760a5-26e1-474f-bd13-bddd2f972a1f")
+		(uuid "dd565e6f-3c3d-4c85-8074-fa868bca4897")
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 113.03 71.12)
+			(xy 180.34 73.66) (xy 180.34 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7f1808e-10bb-48bd-b2d6-0aad400c1aae")
+		(uuid "e74e5e9b-b3da-42e9-a195-9f131b947ddf")
 	)
-	(wire
-		(pts
-			(xy 156.21 73.66) (xy 156.21 74.93)
+	(label "VOUT"
+		(at 180.34 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a46883-36f6-4a4c-b427-781177113bfc")
+		(uuid "69f89154-b4d4-450a-8b1f-a772a20d87f4")
 	)
-	(wire
-		(pts
-			(xy 93.98 68.58) (xy 93.98 72.39)
+	(label "VOUT"
+		(at 156.21 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90c94b9-9cf7-42ec-98bf-dd46437df906")
+		(uuid "b814b3c4-5dc6-49fe-a965-74df5882b8e2")
 	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 114.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a822ab-3276-4b02-bba3-290a2a10bd0a")
-	)
-	(wire
-		(pts
-			(xy 86.36 95.25) (xy 93.98 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f46c41-a203-4c43-a244-4b6d91a645b6")
-	)
-	(wire
-		(pts
-			(xy 93.98 92.71) (xy 93.98 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60842df-9a05-4b6f-ac4d-a6c22278e941")
-	)
-	(hierarchical_label "SENSE_OUT"
+	(hierarchical_label "I_ADC"
 		(shape output)
-		(at 113.03 80.01 180)
+		(at 184.15 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18233a14-dc2c-457c-bc1a-2eb74cb42537")
+	)
+	(hierarchical_label "CV_GNDA"
+		(shape input)
+		(at 129.54 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2ad7d0ae-0c97-486d-8fd5-b47c16c4ae86")
+		(uuid "35f3a89b-2b09-4fd3-b10a-c9348a4999c9")
 	)
-	(hierarchical_label "LV_GND"
-		(shape passive)
-		(at 175.26 81.28 270)
+	(hierarchical_label "CV_GND"
+		(shape input)
+		(at 156.21 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1008,97 +949,97 @@
 		)
 		(uuid "3621b663-dcd5-49d0-bc34-8206c0fe4e27")
 	)
-	(hierarchical_label "VS"
-		(shape input)
-		(at 175.26 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58f23b1c-aa6e-4974-a366-cab8c5acfcd8")
-	)
-	(hierarchical_label "LV_GND"
-		(shape passive)
-		(at 147.32 82.55 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66cfd6f9-9d3e-4a64-b044-8c3269b9f49e")
-	)
-	(hierarchical_label "VS"
-		(shape input)
-		(at 151.13 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bbe6315-bd97-42e3-8a38-e2683166ee7b")
-	)
-	(hierarchical_label "I_ADC"
-		(shape output)
-		(at 160.02 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab783b68-16ad-42f3-a050-9d23abac8a3b")
-	)
-	(hierarchical_label "SENSE_IN"
-		(shape output)
-		(at 90.17 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5caa467-0e97-4d2d-ab8e-9312203b82b5")
-	)
-	(hierarchical_label "LV_GND"
-		(shape passive)
-		(at 95.25 95.25 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be99e049-1761-40a8-ad11-960bb22f00ef")
-	)
-	(hierarchical_label "LV_GND"
-		(shape passive)
-		(at 156.21 95.25 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfc81da1-727a-48cd-b390-18d62440924f")
-	)
 	(hierarchical_label "V_ADC"
 		(shape output)
-		(at 83.82 82.55 180)
+		(at 83.82 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d05b8eea-2c57-49e0-842f-697a1b5f80b0")
+		(uuid "3db4f3ae-d264-4984-8ee1-7704baf848bf")
+	)
+	(hierarchical_label "VS"
+		(shape input)
+		(at 157.48 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "584fd3a0-8735-4cff-8b7e-974deb0b972b")
+	)
+	(hierarchical_label "CV_GND"
+		(shape input)
+		(at 180.34 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8202e3ea-d825-4661-a11e-ad79359c3f8f")
+	)
+	(hierarchical_label "SENSE_IN"
+		(shape input)
+		(at 93.98 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84a29ad2-c522-418a-bcd7-ea11594e82ab")
+	)
+	(hierarchical_label "SENSE_IN"
+		(shape input)
+		(at 129.54 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "917b8cd4-1dc0-4bb7-bb75-c7dbfdc6d372")
+	)
+	(hierarchical_label "SENSE_OUT"
+		(shape input)
+		(at 129.54 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1164d1b-169b-4b96-a77e-64d12615c3a8")
+	)
+	(hierarchical_label "CV_GND"
+		(shape input)
+		(at 156.21 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdce5505-a41d-406c-886d-c4448331583c")
+	)
+	(hierarchical_label "CV_GND"
+		(shape input)
+		(at 93.98 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5cf2cbf-c4de-4dc0-a547-dbd341e9e925")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 88.9 0)
+		(lib_id "PS-SuppCharger_Library:TMCS1170")
+		(at 143.51 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1106,31 +1047,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "216f29e1-5876-45b3-a91b-bd741d8fbfc1")
-		(property "Reference" "R29"
-			(at 96.52 87.6299 0)
+		(fields_autoplaced yes)
+		(uuid "1ad9479c-61c4-413e-be8f-bc4332cc138b")
+		(property "Reference" "U5"
+			(at 143.51 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 96.52 90.1699 0)
+		(property "Value" "TMCS1170"
+			(at 143.51 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.202 88.9 90)
+		(property "Footprint" ""
+			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,8 +1080,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "-- mixed values --"
-			(at 93.98 88.9 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmcs1170.pdf?ts=1791411836090&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1170"
+			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1151,151 +1091,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06031K00FKEI "
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C21190"
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assemble" "-- mixed values --"
-			(at 93.98 88.9 0)
+		(property "Description" ""
+			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1306,252 +1103,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "96ef1250-4d80-435a-b0a7-ddc4b791c19d")
+			(uuid "8505dd2c-d0a3-4b69-8f40-4f8e1536d851")
+		)
+		(pin "6"
+			(uuid "1fd2d96a-1c42-454e-b834-bdab13fbe0ad")
+		)
+		(pin "7"
+			(uuid "305f8548-4394-465a-bcae-8e911a1cd761")
+		)
+		(pin "11"
+			(uuid "d6618151-c3c3-484d-afaa-e3dd1b40d4c4")
+		)
+		(pin "12"
+			(uuid "95012d10-64b3-4ab6-873e-23cf6675dd7a")
 		)
 		(pin "2"
-			(uuid "a8afb0f9-fe3f-4abc-a6ad-8bc013fedd3a")
+			(uuid "bd08dcb4-492a-4203-85be-0aaaff955e28")
+		)
+		(pin "5"
+			(uuid "4921b0c7-c62f-443a-9dbc-777077afeb49")
+		)
+		(pin "8"
+			(uuid "88b211c1-ea07-479a-8ce7-fa905b31ab59")
+		)
+		(pin "3"
+			(uuid "5454b401-15ed-4215-ad87-e4c95897a92c")
+		)
+		(pin "4"
+			(uuid "66a178c2-149a-4bb9-a109-16422073dea4")
+		)
+		(pin "9"
+			(uuid "5677be44-11ef-475f-8fbd-a52ee671c0af")
+		)
+		(pin "10"
+			(uuid "0a2df3eb-3cf5-4c15-bf38-22d039042fca")
 		)
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "657ed7de-77a4-456e-8940-94fc55b25fc5")
-		(property "Reference" "R30"
-			(at 161.036 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 161.036 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.432 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "-- mixed values --"
-			(at 156.21 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06034K70FKEA"
-			(at 156.21 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assemble" "-- mixed values --"
-			(at 156.21 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C23162"
-			(at 156.21 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e420edd5-94ed-4621-b14a-39ce3641b42a")
-		)
-		(pin "2"
-			(uuid "e4d3036e-4c15-4c44-aa0b-53b9239aad56")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70751b24-443d-44ff-bd2f-5aeb7483ea7a")
-		(property "Reference" "R28"
-			(at 96.52 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 96.52 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.202 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "-- mixed values --"
-			(at 93.98 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-- mixed values --"
-			(at 93.98 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "-- mixed values --"
-			(at 93.98 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C25804"
-			(at 93.98 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assemble" "-- mixed values --"
-			(at 93.98 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "-- mixed values --"
-			(at 93.98 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6ca8cd7-6673-43cb-baef-5de06d49cb52")
-		)
-		(pin "2"
-			(uuid "09d11e8c-2831-430f-b5ca-5e4f4499babc")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R28")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1559,7 +1149,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 86.36 88.9 0)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1567,9 +1157,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "78e3a1a8-0323-45da-84c7-68ed37a2c90e")
-		(property "Reference" "C34"
-			(at 82.55 87.6362 0)
+		(uuid "24fcb712-ec7d-4e03-abec-973a60c7fc4d")
+		(property "Reference" "C49"
+			(at 82.55 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1580,7 +1170,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 82.55 90.1762 0)
+			(at 82.55 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1591,7 +1181,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 86.36 88.9 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1602,7 +1192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 88.9 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1203,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 88.9 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +1214,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 86.36 88.9 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,7 +1225,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 86.36 88.9 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1646,15 +1236,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "674be71e-56f9-4a04-b951-9bf4c37c6c85")
+			(uuid "cb05f9d5-9003-4f3e-a56a-7d2423d687f0")
 		)
 		(pin "1"
-			(uuid "59af40b4-61ff-4967-9a68-67c239fcb3d6")
+			(uuid "c131fca3-5d0c-4b75-a908-cb653373eef5")
 		)
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C34")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1252,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 90.17 0)
+		(at 180.34 90.17 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1671,9 +1261,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a96bb308-309e-41b4-be50-f9d526b4770c")
-		(property "Reference" "C47"
-			(at 158.75 88.9062 0)
+		(uuid "4167d7b8-75e3-4e65-99d5-ad801a16910b")
+		(property "Reference" "C56"
+			(at 182.88 88.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1684,7 +1274,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 158.75 91.4462 0)
+			(at 182.88 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1695,7 +1285,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 156.21 90.17 0)
+			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,7 +1296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 90.17 0)
+			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1717,7 +1307,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 90.17 0)
+			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,7 +1318,7 @@
 			)
 		)
 		(property "LCSC P/N" "C1622"
-			(at 156.21 90.17 0)
+			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1739,7 +1329,7 @@
 			)
 		)
 		(property "P/N" "MSASU105SB5473KFNA01"
-			(at 156.21 90.17 0)
+			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1750,15 +1340,476 @@
 			)
 		)
 		(pin "2"
-			(uuid "d1a16ea8-232b-45de-b93b-f798191e1de8")
+			(uuid "4194eb39-870c-49d3-8bdb-c2a14d28754d")
 		)
 		(pin "1"
-			(uuid "53913598-d039-4ab4-b2fd-ae64b0329b53")
+			(uuid "d3a4cbc8-ff8f-44b0-b894-5a7fc394843e")
 		)
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C47")
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f81f59f-c69c-46ee-82df-6fe9c50d1e72")
+		(property "Reference" "R31"
+			(at 96.52 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 96.52 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 92.202 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "-- mixed values --"
+			(at 93.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-- mixed values --"
+			(at 93.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "-- mixed values --"
+			(at 93.98 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
+			(at 93.98 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assemble" "-- mixed values --"
+			(at 93.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 93.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7e5e290-4000-4e2a-baf3-f568517fb6b5")
+		)
+		(pin "2"
+			(uuid "5bcfd727-d757-4399-ae0c-33cafecafabd")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88c122e9-8ce9-40ce-83e6-025e338425fa")
+		(property "Reference" "R33"
+			(at 185.166 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 185.166 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 178.562 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "-- mixed values --"
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06034K70FKEA"
+			(at 180.34 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assemble" "-- mixed values --"
+			(at 180.34 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C23162"
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebb0aee7-d0c0-4836-b40a-9507f2a626d1")
+		)
+		(pin "2"
+			(uuid "34164515-4d1b-430a-882e-9ad11f393780")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c448a508-a2ab-4232-9898-93fa7e69d961")
+		(property "Reference" "R32"
+			(at 96.52 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 96.52 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 92.202 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "-- mixed values --"
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assemble" "-- mixed values --"
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a69bb8b2-51b2-4c02-b093-af3766e5e45c")
+		)
+		(pin "2"
+			(uuid "49f81979-b0a7-44cd-916a-aed52a230f85")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1766,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 175.26 78.74 180)
+		(at 156.21 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1776,7 +1827,7 @@
 		(dnp no)
 		(uuid "d8981ca8-96be-4d82-9698-0263d198e931")
 		(property "Reference" "C48"
-			(at 178.308 77.724 0)
+			(at 159.258 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1787,7 +1838,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 178.308 80.264 0)
+			(at 159.258 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1798,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 175.26 78.74 0)
+			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 78.74 0)
+			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 78.74 0)
+			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,7 +1882,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 175.26 78.74 90)
+			(at 156.21 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1842,7 +1893,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 175.26 78.74 0)
+			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,128 +1913,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBBB Symbols:TMCS1107A3BQDR")
-		(at 111.76 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb5f4d17-132c-4524-8ae8-5c1ecc48835c")
-		(property "Reference" "U4"
-			(at 129.54 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TMCS1107A2UQDR"
-			(at 129.54 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "OBBB Footprints:TMCS1107A3BQDR"
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://tmcs1107.pdf"
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C3684136"
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "TMCS1107A2UQDR"
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e3159eb0-058a-4c30-9d3f-abbf10ed4c26")
-		)
-		(pin "3"
-			(uuid "ef7635ef-e1f9-45f9-ad00-ffc8d310f263")
-		)
-		(pin "4"
-			(uuid "ce6a5691-f8cc-4a74-9865-65a50632cc48")
-		)
-		(pin "5"
-			(uuid "980db470-3411-4096-b166-617dcb7f7e3e")
-		)
-		(pin "6"
-			(uuid "8546a311-967d-4ab7-8e86-6a37d57c3784")
-		)
-		(pin "7"
-			(uuid "b2ce2a50-8845-4073-8a60-9e26f563dd05")
-		)
-		(pin "8"
-			(uuid "3635d973-635c-425e-ac3d-1ea394d8bdf9")
-		)
-		(pin "1"
-			(uuid "5b6d3378-c620-41b0-88a5-d69a9f2f13fb")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "U4")
 					(unit 1)
 				)
 			)

@@ -656,7 +656,7 @@
         "uuid": "bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
       }
     ],
-    "used_designators": "DS1,#FLG9,J1-7,L2-3,IC1-2,U1-6,C13-55,FB1-2,SW1-2,D1,D5-13,#PWR1-18,Y1,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,TP9-15,R5-11,R18-30,R37-52,TP_3.3V1,NT1",
+    "used_designators": "DS1,#FLG9,J1-7,L2-3,IC1-2,U1-6,C13-56,FB1-2,SW1-2,D1,D5-13,#PWR1-18,Y1,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,TP9-15,R5-11,R18-33,R37-52,TP_3.3V1,NT1",
     "variants": []
   },
   "sheets": [
@@ -665,44 +665,44 @@
       "Root"
     ],
     [
-      "5a9f4296-d45b-479f-ac32-9e8816f69a4a",
-      "USB_PD"
-    ],
-    [
-      "e58835ba-d655-4988-9328-6faa41dff219",
-      "12VBuck"
-    ],
-    [
-      "4ad4a2c3-4857-4749-82d5-209c9606e4d9",
-      "48PinMCU"
-    ],
-    [
       "2099eebf-592e-4f12-9d68-10945da47bbf",
       "USB-C_Connector"
-    ],
-    [
-      "7814c951-9095-4f8d-9e56-f938c21b373e",
-      "CurrentVoltageSensing"
-    ],
-    [
-      "1fcff8a1-b85c-4edd-93d0-cae5d97f56d9",
-      "LDO"
-    ],
-    [
-      "e80fc4c6-37a6-42e3-b247-8987b7fc1ac3",
-      "12VBuckBoost"
     ],
     [
       "b453130c-e9c7-412e-8bc8-36da0f20a61a",
       "PowerSupply"
     ],
     [
-      "a0f50f41-4e30-4c40-9c76-1d295d27d660",
-      "Display"
+      "5a9f4296-d45b-479f-ac32-9e8816f69a4a",
+      "USB_PD"
+    ],
+    [
+      "e80fc4c6-37a6-42e3-b247-8987b7fc1ac3",
+      "12VBuckBoost"
+    ],
+    [
+      "7814c951-9095-4f8d-9e56-f938c21b373e",
+      "CurrentVoltageSensing"
     ],
     [
       "86cc2967-69b0-4299-8f52-f6a7fa8c4da6",
       "Power_Mux"
+    ],
+    [
+      "e58835ba-d655-4988-9328-6faa41dff219",
+      "12VBuck"
+    ],
+    [
+      "1fcff8a1-b85c-4edd-93d0-cae5d97f56d9",
+      "LDO"
+    ],
+    [
+      "a0f50f41-4e30-4c40-9c76-1d295d27d660",
+      "Display"
+    ],
+    [
+      "4ad4a2c3-4857-4749-82d5-209c9606e4d9",
+      "48PinMCU"
     ]
   ],
   "text_variables": {},
