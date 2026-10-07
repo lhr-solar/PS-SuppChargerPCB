@@ -648,7 +648,7 @@
         "uuid": "bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
       }
     ],
-    "used_designators": "NT1,TP_3.3V1,R5-11,R18-27,R37-51,TP9-15,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,U1-3,U5,C13-33,C35-49,FB1-2,SW1-2,Y1,#PWR1-13,D1,D5-10,IC1-2,L2-3,J1-4,#FLG9",
+    "used_designators": "DS1,#FLG9,J1-6,L2-3,IC1-2,U1-3,U5-6,C13-33,C35-54,FB1-2,SW1-2,D1,D5-10,#PWR1-15,Y1,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,TP9-15,R5-11,R18-27,R37-52,TP_3.3V1,NT1",
     "variants": []
   },
   "sheets": [
@@ -695,6 +695,10 @@
     [
       "a0f50f41-4e30-4c40-9c76-1d295d27d660",
       "Display"
+    ],
+    [
+      "86cc2967-69b0-4299-8f52-f6a7fa8c4da6",
+      "Power_Mux"
     ]
   ],
   "text_variables": {},
