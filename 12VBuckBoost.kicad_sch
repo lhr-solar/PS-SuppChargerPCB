@@ -1217,16 +1217,6 @@
 		)
 		(uuid "6b008f7a-252a-460c-a2ee-056747007c1a")
 	)
-	(text "look at bps leader"
-		(exclude_from_sim no)
-		(at 43.688 23.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8b9da23e-fa23-47a0-b868-48fa775a0922")
-	)
 	(text "C4"
 		(exclude_from_sim no)
 		(at 135.89 18.796 0)
@@ -1709,6 +1699,26 @@
 			(type default)
 		)
 		(uuid "e9eb65eb-40fb-4f56-ac88-2db21dd1a44a")
+	)
+	(wire
+		(pts
+			(xy 18.524 0.8257) (xy 19.794 0.8257)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb287150-65ea-4f8e-a53f-4c8bd5739e0d")
+	)
+	(wire
+		(pts
+			(xy 2.6162 2.6162) (xy 3.8862 2.6162)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed30efd9-497e-485e-bd51-934044a4c1b2")
 	)
 	(wire
 		(pts
@@ -6722,6 +6732,16 @@
 			"hmFMDIs4wzCMiWERZxiGMTEs4gzDMCaGRZxhGMbEsIgzDMOYGBZxhmEYE8MizjAMY2L+HxO8e8+T"
 			"Y4i/AAAAAElFTkSuQmCC"
 		)
+	)
+	(label "12V_MUX_OUT"
+		(at 13.444 2.0957 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a5c96ca-9076-479e-b4a4-f165b5d0bc48")
 	)
 	(hierarchical_label "PGND"
 		(shape input)

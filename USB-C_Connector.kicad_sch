@@ -1567,6 +1567,16 @@
 		)
 		(uuid "b6c62b86-d9aa-427b-880f-12480ba24203")
 	)
+	(text "fix usb DM and usb DP net labels"
+		(exclude_from_sim no)
+		(at 125.476 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b8ffd43-6d9d-422a-bae2-e6a2523fb252")
+	)
 	(text "USB Protection"
 		(exclude_from_sim no)
 		(at 83.82 64.77 0)

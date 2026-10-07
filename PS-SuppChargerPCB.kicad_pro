@@ -636,6 +636,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +656,7 @@
         "uuid": "bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
       }
     ],
-    "used_designators": "DS1,#FLG9,J1-6,L2-3,IC1-2,U1-3,U5-6,C13-33,C35-54,FB1-2,SW1-2,D1,D5-10,#PWR1-15,Y1,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,TP9-15,R5-11,R18-27,R37-52,TP_3.3V1,NT1",
+    "used_designators": "DS1,#FLG9,J1-7,L2-3,IC1-2,U1-6,C13-55,FB1-2,SW1-2,D1,D5-13,#PWR1-18,Y1,NHD\\-0208BZ\\-FSW\\-GBW\\-33V1,TP9-15,R5-11,R18-30,R37-52,TP_3.3V1,NT1",
     "variants": []
   },
   "sheets": [
@@ -673,16 +681,12 @@
       "USB-C_Connector"
     ],
     [
-      "8d46c906-880b-4ae9-bef9-10e6557421b5",
+      "7814c951-9095-4f8d-9e56-f938c21b373e",
       "CurrentVoltageSensing"
     ],
     [
       "1fcff8a1-b85c-4edd-93d0-cae5d97f56d9",
       "LDO"
-    ],
-    [
-      "a2ef4439-6614-4cbb-bf5a-90e53fd05ec7",
-      "Power_Mux_12V"
     ],
     [
       "e80fc4c6-37a6-42e3-b247-8987b7fc1ac3",

@@ -186,7 +186,7 @@
 		)
 		(uuid "3452bbc5-64b6-4272-bfb5-0a767531a54c")
 	)
-	(hierarchical_label "Vout"
+	(hierarchical_label "PS_Vout"
 		(shape output)
 		(at 88.9 69.85 180)
 		(effects
