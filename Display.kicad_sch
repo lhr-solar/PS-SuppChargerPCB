@@ -167,7 +167,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "DS"
-				(at 0 10.16 0)
+				(at -0.254 12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -176,8 +176,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "ZJY200S0800TG01"
+				(at 0.508 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -197,7 +197,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/0/2/3/0/c/ZJY200S0800TG01.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,63 +383,13 @@
 	)
 	(text " TFT LCD Display Module Screen - 2.0in., 240x320 (SPI Interface) \n"
 		(exclude_from_sim no)
-		(at 131.318 154.178 0)
+		(at 128.27 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "099f1d26-5345-478f-8d4e-0f0861a90427")
-	)
-	(text "hiletgo display"
-		(exclude_from_sim no)
-		(at 129.54 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17fe9bb1-54b1-42d0-bdd3-97bbea0fd854")
-	)
-	(text "VSS 0.1V input"
-		(exclude_from_sim no)
-		(at 112.776 115.316 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dc7dc75-dabe-48dd-aff4-3f7e616f090c")
-	)
-	(text "stack 3 diodes to make 2.9v? cant do voltage divider\n"
-		(exclude_from_sim no)
-		(at 120.65 127.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "477f9db0-4e3d-4831-b05a-882fd706be4e")
-	)
-	(text "LED+ 2.9V Input"
-		(exclude_from_sim no)
-		(at 112.776 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8720fa1e-1019-41e4-862f-259a38bbcb92")
-	)
-	(text "change display and go from there:"
-		(exclude_from_sim no)
-		(at 157.48 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc830c36-23ca-4931-98bf-f43b902ea3c3")
 	)
 	(junction
 		(at 111.76 74.93)
@@ -732,10 +682,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17f22fc7-dc4f-4ba6-974b-d13617f48966")
 		(property "Reference" "DS1"
-			(at 127 64.77 0)
+			(at 127.254 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -744,8 +693,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 127 76.2 0)
+		(property "Value" "ZJY200S0800TG01"
+			(at 127.254 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -765,7 +714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/0/2/3/0/c/ZJY200S0800TG01.pdf"
 			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
