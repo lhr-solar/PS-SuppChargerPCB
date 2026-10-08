@@ -611,9 +611,9 @@
 		)
 		(uuid "23966421-5789-4af9-bc63-9b4a97a3b3ce")
 	)
-	(text "Divider of 11\nMax SuppReg Voltage = 14.7, divided = --V\nMin supp Voltage = 9.8\n, divided = --V"
+	(text "Divider of ~5.5454 -> (1/(2.2/2.2+10))\nMax SuppReg Voltage = 15V, divided = 2.705V\nMin supp Voltage = 9.8, divided = 1.767V"
 		(exclude_from_sim no)
-		(at 49.276 112.776 0)
+		(at 49.276 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 55.88 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
