@@ -6725,7 +6725,7 @@
 		(uuid "033dc962-c629-4850-b52c-e2b3e4bf97a1")
 	)
 	(hierarchical_label "VOUT"
-		(shape input)
+		(shape output)
 		(at 243.84 35.56 0)
 		(effects
 			(font

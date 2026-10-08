@@ -167,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 69.85) (xy 92.71 69.85)
+			(xy 88.9 73.66) (xy 92.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -188,7 +188,7 @@
 	)
 	(hierarchical_label "PS_Vout"
 		(shape output)
-		(at 88.9 69.85 180)
+		(at 88.9 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -278,7 +278,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 97.79 69.85 0)
+		(at 97.79 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -289,7 +289,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad8e17a9-c715-4bfe-9b55-e8845fc4e833")
 		(property "Reference" "J5"
-			(at 100.33 68.5799 0)
+			(at 100.33 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -300,7 +300,7 @@
 			)
 		)
 		(property "Value" "PS_Banana_+"
-			(at 100.33 71.1199 0)
+			(at 100.33 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -311,7 +311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 69.85 0)
+			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -322,7 +322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 69.85 0)
+			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -333,7 +333,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 69.85 0)
+			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -160,6 +160,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PS-SuppCharger_Library:ZJY200S0800TG01"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -475,13 +615,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 69.85) (xy 118.11 69.85)
+			(xy 115.57 69.85) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b0dd275-16d4-4557-86c1-db617f7d792f")
+		(uuid "7573b818-db41-44fa-8c81-38bb345cc201")
 	)
 	(wire
 		(pts
@@ -492,6 +632,16 @@
 			(type default)
 		)
 		(uuid "a32f99c4-00c5-47ed-a07a-22fa0ed08bf7")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafdfbf1-b1da-4ef0-bbc1-6d3f6e0de593")
 	)
 	(wire
 		(pts
@@ -571,7 +721,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 116.84 69.85 180)
+		(at 102.87 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -764,6 +914,85 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a0f50f41-4e30-4c40-9c76-1d295d27d660"
 					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2b8aac6-7b86-4e7b-a4c0-fd3455bec854")
+		(property "Reference" "R26"
+			(at 111.76 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 111.76 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86aa86cd-a6cb-41a1-92bb-a0e503087cf7")
+		)
+		(pin "2"
+			(uuid "422f5a0f-07d2-42ed-8ddf-5aa4e3757ec3")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a0f50f41-4e30-4c40-9c76-1d295d27d660"
+					(reference "R26")
 					(unit 1)
 				)
 			)
