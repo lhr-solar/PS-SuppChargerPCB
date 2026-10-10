@@ -9304,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDC0006A-MFG"
+		(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)

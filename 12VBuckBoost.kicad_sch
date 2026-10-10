@@ -8136,7 +8136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS552892QWRYQRQ1"
+		(property "Footprint" "LHRS_ICs:TPS552892QWRYQRQ1"
 			(at 154.94 130.48 0)
 			(hide yes)
 			(show_name no)
