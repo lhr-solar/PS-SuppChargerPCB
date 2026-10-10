@@ -14666,8 +14666,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 170.18)
-		(size 20.32 12.7)
+		(at 88.9 17.78)
+		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14680,213 +14680,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "1fcff8a1-b85c-4edd-93d0-cae5d97f56d9")
-		(property "Sheetname" "LDO"
-			(at 139.7 169.4684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 139.7 183.4646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 139.7 180.34 180)
-			(uuid "e9397775-f522-4d80-b25d-817d3062bed1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 139.7 172.72 180)
-			(uuid "000299c1-21e6-40d5-814f-f6c7fd23442d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 160.02 172.72 0)
-			(uuid "e1f38620-b62e-43ac-bedc-67c53091bd80")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 30.48 31.75)
-		(size 35.56 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2099eebf-592e-4f12-9d68-10945da47bbf")
-		(property "Sheetname" "USB-C_Connector"
-			(at 30.48 31.0384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB-C_Connector.kicad_sch"
-			(at 30.48 50.1146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Author" "Shuopu Wang"
-			(at 0.508 -19.558 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Date Modified" "9/5/2026"
-			(at 0.508 -19.558 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CC1" bidirectional
-			(at 66.04 44.45 0)
-			(uuid "adad13a7-eca1-4f8f-8b35-4483be8e4af2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CC2" bidirectional
-			(at 66.04 46.99 0)
-			(uuid "ca0837fa-b133-4e96-92ca-f5a646d3ef27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 30.48 46.99 180)
-			(uuid "204179f1-b810-4e5f-933f-367af1b20a80")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_5V" output
-			(at 66.04 34.29 0)
-			(uuid "c6256c65-bc0b-47f0-b368-316b14b6ba6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 66.04 38.1 0)
-			(uuid "32753f03-19b4-4ce9-935d-8457f79e441e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DM" bidirectional
-			(at 66.04 40.64 0)
-			(uuid "8bf7da99-e41a-4980-bd59-03e560fbd957")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 88.9 20.32)
-		(size 46.99 36.83)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5a9f4296-d45b-479f-ac32-9e8816f69a4a")
+		(uuid "0c013a70-ec03-4913-a24e-33c4630278d4")
 		(property "Sheetname" "USB_PD"
-			(at 88.9 19.6084 0)
+			(at 88.9 17.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14908,7 +14704,7 @@
 			)
 		)
 		(property "Date Modified" "5/20/26"
-			(at 33.02 -20.828 0)
+			(at -6.35 -3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14919,7 +14715,7 @@
 			)
 		)
 		(property "Author" "Michael Adeluyi"
-			(at 33.02 -20.828 0)
+			(at -6.35 -3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14931,7 +14727,7 @@
 		)
 		(pin "ISINK_COARSE" output
 			(at 135.89 22.86 0)
-			(uuid "e70824b7-7716-427b-8f20-d47318b8507d")
+			(uuid "350e6de3-eebb-4b37-b08e-f06680be7dc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,7 +14737,7 @@
 		)
 		(pin "ISINK_FINE" output
 			(at 135.89 25.4 0)
-			(uuid "94031101-4ed7-4b57-8fc6-a9afed2600da")
+			(uuid "d26ed997-fbc1-414d-a26a-28116ab6db14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14951,7 +14747,7 @@
 		)
 		(pin "PD_5V_OUT" output
 			(at 135.89 29.21 0)
-			(uuid "819c72b3-1ecb-40b4-89f4-d49374c0bf9a")
+			(uuid "df3c5bbf-c38a-4e30-a44f-992f351ecff6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14961,7 +14757,7 @@
 		)
 		(pin "PD_CC1" bidirectional
 			(at 88.9 44.45 180)
-			(uuid "720e94a9-3885-4a68-a959-924c97739084")
+			(uuid "f264ed93-f55d-4006-9404-87411da739a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14971,7 +14767,7 @@
 		)
 		(pin "PD_CC2" bidirectional
 			(at 88.9 46.99 180)
-			(uuid "d42b6489-3f23-45d0-be12-0e5c271e7c1a")
+			(uuid "03019d31-cce9-4b94-ac4b-126fb4cc5fca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14981,7 +14777,7 @@
 		)
 		(pin "PD_FAULT" output
 			(at 135.89 40.64 0)
-			(uuid "6561a84b-475e-44db-ba70-01b4000050b9")
+			(uuid "1adcf7c6-f17e-452e-9474-f310c19d4312")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +14787,7 @@
 		)
 		(pin "PD_GPIO_1" bidirectional
 			(at 135.89 38.1 0)
-			(uuid "718fd4ad-4728-497d-8b8a-3b96455ceb3c")
+			(uuid "5f91a0d8-d9dd-4fdb-b642-d6a0fa8e09ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15001,7 +14797,7 @@
 		)
 		(pin "PD_HPI_INT" output
 			(at 88.9 25.4 180)
-			(uuid "c46d713a-1d8d-4a88-ab11-c0396a359426")
+			(uuid "8b7aa194-6afb-4a5b-b3dd-f2145c2efc80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15011,7 +14807,7 @@
 		)
 		(pin "PD_SCL" bidirectional
 			(at 88.9 27.94 180)
-			(uuid "c361e1d7-7f92-4430-842a-b2595526f73f")
+			(uuid "d744ab70-120a-44c2-8931-a9a1be6e7df0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +14817,7 @@
 		)
 		(pin "PD_SDA" bidirectional
 			(at 88.9 30.48 180)
-			(uuid "087e8eaf-d3c8-461f-a98f-d32ee7a181b5")
+			(uuid "270a645c-79e1-4992-9117-81ce6dd3a043")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15031,7 +14827,7 @@
 		)
 		(pin "PD_VBUS_OUT" output
 			(at 135.89 31.75 0)
-			(uuid "c4038c18-d2e2-4f88-a2b2-156a460fcd5e")
+			(uuid "f79dc5d8-950f-4bec-8f84-57c43e24b167")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +14837,7 @@
 		)
 		(pin "SAFE_PWR_EN" output
 			(at 135.89 54.61 0)
-			(uuid "f65b1a6c-67e5-4e7a-b57a-29d01bf3fe62")
+			(uuid "0150db1c-d55c-4222-8d12-b6fb89bbd782")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15051,7 +14847,7 @@
 		)
 		(pin "USB_GND" input
 			(at 88.9 54.61 180)
-			(uuid "4c40b802-2818-4786-a483-baa7ec8a6018")
+			(uuid "ec765ce4-5d69-4886-9ee5-37f02884d3c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +14857,7 @@
 		)
 		(pin "VBUS" input
 			(at 88.9 34.29 180)
-			(uuid "8115bae3-7b90-4cc8-a62f-9de439f24557")
+			(uuid "afc263d1-5dae-4cc4-ad4d-636605ef8114")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,8 +14866,8 @@
 			)
 		)
 		(pin "VBUS_FET_EN" output
-			(at 135.89 45.72 0)
-			(uuid "9c437acd-ec4a-443b-b162-e890c59f24e9")
+			(at 135.89 50.8 0)
+			(uuid "7cac8595-84e0-4a7a-8c01-919f4007ec51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15080,8 +14876,8 @@
 			)
 		)
 		(pin "VBUS_MAX" output
-			(at 135.89 48.26 0)
-			(uuid "65b56e98-609c-4812-ac35-b712a51aa1ad")
+			(at 135.89 45.72 0)
+			(uuid "0953674f-7ab5-4187-92d8-92446c476ea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15090,8 +14886,8 @@
 			)
 		)
 		(pin "VBUS_MIN" output
-			(at 135.89 50.8 0)
-			(uuid "c1942a06-168c-463d-8f9b-88970647e357")
+			(at 135.89 48.26 0)
+			(uuid "09379f20-87c3-480d-96e8-83ecd9acdf43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,6 +14899,82 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 83.82)
+		(size 17.78 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2cf5818b-529e-491f-8ffd-d4b5d2111841")
+		(property "Sheetname" "PowerProtection"
+			(at 77.47 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerProtection.kicad_sch"
+			(at 77.47 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 77.47 90.17 180)
+			(uuid "806f56a4-881f-48f5-a400-3012aa9ce385")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 77.47 86.36 180)
+			(uuid "e7a0fb66-4162-485d-875c-c4e01d0871f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 95.25 90.17 0)
+			(uuid "5bb169d8-0ad6-494c-b0c7-ad18340903b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(page "3")
 				)
 			)
 		)
@@ -15350,8 +15222,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 165.1)
-		(size 21.59 21.59)
+		(at 35.56 124.46)
+		(size 25.4 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15364,9 +15236,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "86cc2967-69b0-4299-8f52-f6a7fa8c4da6")
-		(property "Sheetname" "Power_Mux"
-			(at 95.25 164.3884 0)
+		(uuid "9a8c28a4-c24a-4585-be32-9284d6648335")
+		(property "Sheetname" "12VBuckBoost"
+			(at 35.56 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15376,8 +15248,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power_Mux.kicad_sch"
-			(at 95.25 187.2746 0)
+		(property "Sheetfile" "12VBuckBoost.kicad_sch"
+			(at 35.56 154.2546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15387,9 +15259,39 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" output
-			(at 116.84 172.72 0)
-			(uuid "347414ec-9df6-4b3b-90df-ac4fe653c541")
+		(pin "AGND" input
+			(at 35.56 148.59 180)
+			(uuid "26a598e6-19d7-4ba6-99a4-5a68fbd1a9ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC" input
+			(at 35.56 129.54 180)
+			(uuid "ba5ff43d-11f9-419f-99d0-3a9e7da5934c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DITH{slash}SYNC" input
+			(at 35.56 138.43 180)
+			(uuid "10cb67c5-2de2-4d06-84b2-af5556ab5dd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN{slash}UVLO" input
+			(at 60.96 146.05 0)
+			(uuid "c3f1a238-4bfe-49e0-a458-471fb341d741")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15397,9 +15299,9 @@
 				(justify right)
 			)
 		)
-		(pin "MX_GND" input
-			(at 95.25 184.15 180)
-			(uuid "dbc643ac-643c-41c5-a55e-35603677d9e1")
+		(pin "EXTVCC" input
+			(at 35.56 127 180)
+			(uuid "948e49be-d52a-48ba-920a-2a1e5db5addd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15407,9 +15309,9 @@
 				(justify left)
 			)
 		)
-		(pin "PR1" input
-			(at 95.25 176.53 180)
-			(uuid "78ca3504-9e07-47ca-99eb-1f48de0c6869")
+		(pin "MODE" input
+			(at 35.56 146.05 180)
+			(uuid "2099e748-68f4-4690-8913-9020f10aaf39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,9 +15319,9 @@
 				(justify left)
 			)
 		)
-		(pin "VIN_1" input
-			(at 95.25 168.91 180)
-			(uuid "18af25f2-d709-4e94-ac59-62d5d07da9a1")
+		(pin "PG" input
+			(at 35.56 132.08 180)
+			(uuid "72181162-a652-410b-87a8-35100f888fb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15427,20 +15329,40 @@
 				(justify left)
 			)
 		)
-		(pin "VIN_2" input
-			(at 95.25 166.37 180)
-			(uuid "206d4410-2f59-46c1-b5e8-87e4fb1a6d5b")
+		(pin "PGND" input
+			(at 35.56 151.13 180)
+			(uuid "c5d4f61b-306e-440d-be86-058ad7d41b2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 35.56 135.89 180)
+			(uuid "5b1379fc-134f-4834-ab33-bbdb970cd1d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 60.96 133.35 0)
+			(uuid "b3e77161-663a-4e4d-aff8-9d7a47e84830")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -15662,8 +15584,8 @@
 		)
 	)
 	(sheet
-		(at 77.47 83.82)
-		(size 17.78 8.89)
+		(at 95.25 165.1)
+		(size 21.59 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15676,9 +15598,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "b453130c-e9c7-412e-8bc8-36da0f20a61a")
-		(property "Sheetname" "PowerSupply"
-			(at 77.47 83.1084 0)
+		(uuid "a6d476dc-8967-4568-8283-632ab02a8186")
+		(property "Sheetname" "Power_Mux"
+			(at 95.25 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15688,8 +15610,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 77.47 93.2946 0)
+		(property "Sheetfile" "Power_Mux.kicad_sch"
+			(at 95.25 187.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15699,19 +15621,9 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
-			(at 77.47 90.17 180)
-			(uuid "1906a3ba-3337-4d2a-a48b-ea0c24baab6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PP_Vout" output
-			(at 95.25 90.17 0)
-			(uuid "e12de2e4-c6ce-4246-8e36-be1e3e71b86a")
+		(pin "MUX_OUT" output
+			(at 116.84 172.72 0)
+			(uuid "4a03704d-b793-41ef-bab4-dd4635a6f93e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,9 +15631,39 @@
 				(justify right)
 			)
 		)
-		(pin "Vin" input
-			(at 77.47 86.36 180)
-			(uuid "24364f1a-bed1-48e5-9847-324c5e6c6d4b")
+		(pin "MX_GND" input
+			(at 95.25 184.15 180)
+			(uuid "aed5438a-1cba-49fa-a9b6-63672105e77f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PR1" input
+			(at 95.25 176.53 180)
+			(uuid "5fe6bbd6-de41-4482-9dcf-ca54291d3d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_1" input
+			(at 95.25 168.91 180)
+			(uuid "41519df5-1b8a-45aa-97ad-91de24350183")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_2" input
+			(at 95.25 166.37 180)
+			(uuid "4305c91a-1557-46c6-b264-206e024cac3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,14 +15674,14 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(page "3")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 39.37 166.37)
-		(size 21.59 15.24)
+		(at 39.37 165.1)
+		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15752,9 +15694,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e58835ba-d655-4988-9328-6faa41dff219")
+		(uuid "aebf5d4f-ef40-4f0d-9b6a-e87c6af87ba8")
 		(property "Sheetname" "12VBuck"
-			(at 39.37 165.6584 0)
+			(at 39.37 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15765,7 +15707,7 @@
 			)
 		)
 		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 39.37 182.1946 0)
+			(at 39.37 179.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15777,7 +15719,7 @@
 		)
 		(pin "GND" input
 			(at 39.37 176.53 180)
-			(uuid "9357471b-aecf-47b3-b87b-4efce34dcad5")
+			(uuid "d0867528-abbf-498d-a393-bf1b34f893fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15787,7 +15729,7 @@
 		)
 		(pin "V_in_12V" input
 			(at 39.37 171.45 180)
-			(uuid "2009d21b-d6ff-4c6d-bd8f-e5d923b6bb4b")
+			(uuid "f7642d57-e174-45d1-9345-2caff5e67966")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15797,7 +15739,7 @@
 		)
 		(pin "V_out_5V" output
 			(at 60.96 168.91 0)
-			(uuid "7179a605-c18c-43e3-9946-c168aaa224c8")
+			(uuid "2c604279-acda-45d0-b0ca-11a92118f965")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15814,12 +15756,13 @@
 		)
 	)
 	(sheet
-		(at 35.56 124.46)
-		(size 25.4 29.845)
+		(at 139.7 170.18)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -15827,9 +15770,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e80fc4c6-37a6-42e3-b247-8987b7fc1ac3")
-		(property "Sheetname" "12VBuckBoost"
-			(at 35.56 123.7484 0)
+		(uuid "c21b44e2-9508-4243-90b4-c49b0bca01d9")
+		(property "Sheetname" "LDO"
+			(at 139.7 169.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15839,8 +15782,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "12VBuckBoost.kicad_sch"
-			(at 33.528 154.94 0)
+		(property "Sheetfile" "LDO.kicad_sch"
+			(at 139.7 183.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15850,9 +15793,9 @@
 				(justify left top)
 			)
 		)
-		(pin "AGND" input
-			(at 35.56 148.59 180)
-			(uuid "7c06036b-086d-4599-a094-b740c16671cb")
+		(pin "GND" input
+			(at 139.7 180.34 180)
+			(uuid "03f28819-51af-4a45-a235-e224b0543a5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15860,9 +15803,9 @@
 				(justify left)
 			)
 		)
-		(pin "CC" input
-			(at 35.56 129.54 180)
-			(uuid "be76b655-8d8c-46e4-a13e-ad847d619df7")
+		(pin "Vin" input
+			(at 139.7 172.72 180)
+			(uuid "fb761285-3cef-4dd6-bffb-a206ed4f459a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,79 +15813,9 @@
 				(justify left)
 			)
 		)
-		(pin "DITH{slash}SYNC" input
-			(at 35.56 138.43 180)
-			(uuid "43bc7ce2-0828-46a8-897d-21a1b78097bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN{slash}UVLO" input
-			(at 60.96 146.05 0)
-			(uuid "250c1587-1f74-4a7c-8fbd-c79a32f43cff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXTVCC" input
-			(at 35.56 127 180)
-			(uuid "450f1e4b-b4f1-4e92-8538-a5bb3d488cbb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MODE" input
-			(at 35.56 146.05 180)
-			(uuid "31b46289-e64c-44a3-bbdd-fb35b81471b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PG" input
-			(at 35.56 132.08 180)
-			(uuid "e7c243a6-1b9f-46b7-85c3-9baed2889f40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PGND" input
-			(at 35.56 151.13 180)
-			(uuid "53760586-1613-4ab0-9b0f-aa95c48bb545")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIN" input
-			(at 35.56 135.89 180)
-			(uuid "1d9e93f3-e388-4ca7-b086-32635e26019a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" output
-			(at 60.96 133.35 0)
-			(uuid "afaf0204-3958-4675-b282-16e37c204358")
+		(pin "Vout" output
+			(at 160.02 172.72 0)
+			(uuid "a3391604-62f3-4d37-afc9-104e2553ea34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,7 +15826,135 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(page "5")
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 31.75)
+		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ec016523-8b34-47f1-ab1c-e2da371f5914")
+		(property "Sheetname" "USB-C_Connector"
+			(at 30.48 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_Connector.kicad_sch"
+			(at 30.48 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Author" "Shuopu Wang"
+			(at -5.08 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Date Modified" "9/5/2026"
+			(at -5.08 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CC1" bidirectional
+			(at 66.04 44.45 0)
+			(uuid "28349d16-72d2-49ef-b301-493ab656a108")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" bidirectional
+			(at 66.04 46.99 0)
+			(uuid "2a5d6348-2854-475f-8df4-70d9cf504124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 30.48 46.99 180)
+			(uuid "008c610b-8b70-41b5-968f-ce6158e6b6e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_5V" output
+			(at 66.04 34.29 0)
+			(uuid "858e9403-e74c-44fe-945a-0b84709f540a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 66.04 38.1 0)
+			(uuid "396167ea-e3fa-4af0-8996-59e1588c7449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 66.04 40.64 0)
+			(uuid "4a805cdc-398f-474f-ba64-53e96d20792c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(page "2")
 				)
 			)
 		)

@@ -5,129 +5,6 @@
 	(uuid "8ff43370-8d10-4d2c-b1a3-81d1c2934a98")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1035,7 +912,7 @@
 		)
 		(column_widths 29.845 10.795 11.43 11.43 8.255)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(uuid "ddfd5c42-111d-40b8-8fdb-41a594786544")
+		(uuid "858dd052-237d-4253-84bc-3de2cb6e426a")
 		(cells
 			(table_cell "Parameters"
 				(exclude_from_sim no)
@@ -2025,7 +1902,7 @@
 				)
 			)
 			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/1fcff8a1-b85c-4edd-93d0-cae5d97f56d9"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/c21b44e2-9508-4243-90b4-c49b0bca01d9"
 					(reference "C33")
 					(unit 1)
 				)
@@ -2033,128 +1910,6 @@
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP_3.3V1"
-			(at 166.624 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 164.084 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
-		)
-		(instances
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/1fcff8a1-b85c-4edd-93d0-cae5d97f56d9"
-					(reference "TP_3.3V1")
 					(unit 1)
 				)
 			)
@@ -2258,17 +2013,6 @@
 				)
 			)
 		)
-		(property "LCSC MFG P/N" "LM39100S-3.3"
-			(at 152.4 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
 		)
@@ -2279,14 +2023,14 @@
 			(uuid "957fe355-65e9-43a7-85ca-76966301f183")
 		)
 		(instances
-			(project ""
+			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
 					(reference "U1")
 					(unit 1)
 				)
 			)
 			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/1fcff8a1-b85c-4edd-93d0-cae5d97f56d9"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/c21b44e2-9508-4243-90b4-c49b0bca01d9"
 					(reference "U3")
 					(unit 1)
 				)
@@ -2305,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D10"
+		(property "Reference" "D4"
 			(at 133.604 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,15 +2153,15 @@
 			(uuid "92239788-8b6a-4474-afbc-db272288e943")
 		)
 		(instances
-			(project ""
+			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
 					(reference "D1")
 					(unit 1)
 				)
 			)
 			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/1fcff8a1-b85c-4edd-93d0-cae5d97f56d9"
-					(reference "D10")
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/c21b44e2-9508-4243-90b4-c49b0bca01d9"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2526,7 +2270,7 @@
 				)
 			)
 			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/1fcff8a1-b85c-4edd-93d0-cae5d97f56d9"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/c21b44e2-9508-4243-90b4-c49b0bca01d9"
 					(reference "C32")
 					(unit 1)
 				)
