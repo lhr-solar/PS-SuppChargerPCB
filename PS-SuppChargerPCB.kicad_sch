@@ -8434,145 +8434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -8969,7 +8830,7 @@
 	)
 	(rectangle
 		(start 185.42 21.59)
-		(end 237.49 48.26)
+		(end 237.49 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -8981,7 +8842,7 @@
 	)
 	(rectangle
 		(start 237.49 21.59)
-		(end 276.86 48.26)
+		(end 276.86 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -9401,16 +9262,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 34.29) (xy 247.65 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3242ccbb-a707-4940-adc8-0054de7b8000")
-	)
-	(wire
-		(pts
 			(xy 204.47 116.84) (xy 207.01 116.84)
 		)
 		(stroke
@@ -9511,6 +9362,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 44.45) (xy 265.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433317f4-10cd-493b-b0eb-c9fabdbc4379")
+	)
+	(wire
+		(pts
 			(xy 129.54 139.7) (xy 132.08 139.7)
 		)
 		(stroke
@@ -9528,16 +9389,6 @@
 			(type default)
 		)
 		(uuid "47653a2f-bf72-40a7-9962-0a0c54781795")
-	)
-	(wire
-		(pts
-			(xy 266.7 36.83) (xy 266.7 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494af679-994e-40f5-8d8c-cb33bc334717")
 	)
 	(wire
 		(pts
@@ -9741,7 +9592,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 36.83) (xy 252.73 36.83)
+			(xy 251.46 36.83) (xy 252.73 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10361,7 +10212,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 36.83) (xy 266.7 36.83)
+			(xy 260.35 36.83) (xy 265.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10859,6 +10710,16 @@
 		)
 		(uuid "e4e37657-8ced-4a41-bb6b-5876d7109364")
 	)
+	(label "SENSE_OUT"
+		(at 251.46 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e580ea58-a683-4591-b2f7-6620f10a1de8")
+	)
 	(label "PD_SCL"
 		(at 85.09 27.94 180)
 		(effects
@@ -10979,7 +10840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 38.1 0)
+		(at 265.43 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10990,7 +10851,7 @@
 		(fields_autoplaced yes)
 		(uuid "0260fb10-dc69-4a7f-9b77-5aea8ec236c7")
 		(property "Reference" "#PWR027"
-			(at 266.7 44.45 0)
+			(at 265.43 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,7 +10862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 43.18 0)
+			(at 265.43 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11011,7 +10872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 38.1 0)
+			(at 265.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,7 +10883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 38.1 0)
+			(at 265.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +10894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 38.1 0)
+			(at 265.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,19 +10917,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 193.04 31.75 0)
+		(lib_id "Device:R")
+		(at 265.43 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0dfd185d-742b-4730-a6f6-2d49a7417e07")
-		(property "Reference" "H1"
-			(at 195.58 30.4799 0)
+		(uuid "0de96ce0-4fe1-4918-a862-0edc5e609802")
+		(property "Reference" "R45"
+			(at 267.97 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11078,8 +10939,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 195.58 33.0199 0)
+		(property "Value" "4.7k"
+			(at 267.97 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11090,7 +10951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 31.75 0)
+			(at 263.652 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,7 +10962,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 31.75 0)
+			(at 265.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eedd303d-5531-4e8c-b711-90f7230311f3")
+		)
+		(pin "2"
+			(uuid "8c352003-a8e8-44fe-a243-76d42a1902ff")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 193.04 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dfd185d-742b-4730-a6f6-2d49a7417e07")
+		(property "Reference" "H1"
+			(at 195.58 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 195.58 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11112,7 +11055,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 193.04 31.75 0)
+			(at 193.04 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,84 +11228,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 247.65 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aa0c3e9-79cf-4d15-aafa-72f73a5fc6f4")
-		(property "Reference" "#PWR028"
-			(at 247.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 247.65 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 247.65 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "225da768-b8a2-4b36-a646-5c49b8a65499")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12868,7 +12733,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 219.71 31.75 0)
+		(at 219.71 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12879,7 +12744,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff29cba-2cbe-404c-857a-ba73f5460d75")
 		(property "Reference" "H2"
-			(at 222.25 30.4799 0)
+			(at 222.25 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12890,7 +12755,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 222.25 33.0199 0)
+			(at 222.25 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12901,7 +12766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 31.75 0)
+			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +12777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 31.75 0)
+			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +12788,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 219.71 31.75 0)
+			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +13827,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 219.71 40.64 0)
+		(at 219.71 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13973,7 +13838,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0500152-f6b6-42d7-84e0-8866eae0e61d")
 		(property "Reference" "H4"
-			(at 222.25 39.3699 0)
+			(at 222.25 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13984,7 +13849,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 222.25 41.9099 0)
+			(at 222.25 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13995,7 +13860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 40.64 0)
+			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +13871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 40.64 0)
+			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +13882,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 219.71 40.64 0)
+			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +13903,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 193.04 40.64 0)
+		(at 193.04 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14049,7 +13914,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2d5a02f-fcbe-401f-8912-c0dad29a62e3")
 		(property "Reference" "H3"
-			(at 195.58 39.3699 0)
+			(at 195.58 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14060,7 +13925,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 195.58 41.9099 0)
+			(at 195.58 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14071,7 +13936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 40.64 0)
+			(at 193.04 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14082,7 +13947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 40.64 0)
+			(at 193.04 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14093,7 +13958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 193.04 40.64 0)
+			(at 193.04 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
