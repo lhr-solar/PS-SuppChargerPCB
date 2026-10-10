@@ -611,9 +611,9 @@
 		)
 		(uuid "23966421-5789-4af9-bc63-9b4a97a3b3ce")
 	)
-	(text "Divider of ~5.5454 -> (1/(2.2/2.2+10))\nMax SuppReg Voltage = 15V, divided = 2.705V\nMin supp Voltage = 9.8, divided = 1.767V"
+	(text "Divider of ~5.5454 -> (1/(2.2/2.2+10))\nMax SuppReg Voltage = 15V, divided = 2.705V\nMin supp Voltage = 9.8, divided = 1.767V\n\nCuttoff Frequency\nfc = 1/(2πRC) = 720.48Hz"
 		(exclude_from_sim no)
-		(at 49.276 112.268 0)
+		(at 49.276 113.284 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,6 +621,17 @@
 			(justify left)
 		)
 		(uuid "43b68b5e-c1c9-4b97-bd99-4d5d8d7d591f")
+	)
+	(text "Cuttoff Frequency\nfc = 1/(2πRC) = 720.48Hz"
+		(exclude_from_sim no)
+		(at 184.15 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83b875ba-8f16-4d58-b71b-b8da7d5ff7a9")
 	)
 	(junction
 		(at 58.42 100.33)
@@ -1137,7 +1148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmcs1170.pdf?ts=1791411836090&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1170"
+		(property "Datasheet" "kicad-embed://TMCS1170.pdf"
 			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
