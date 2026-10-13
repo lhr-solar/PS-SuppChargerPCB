@@ -12243,22 +12243,28 @@
 		(uuid "41c81662-e2fe-4edc-b3de-52c1363cf4e9")
 	)
 	(junction
-		(at 151.13 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "428b7558-7d40-4b11-82b1-e7487dc6509a")
-	)
-	(junction
 		(at 240.03 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a47a8a3-027c-4df4-bd48-5256dafee00f")
 	)
 	(junction
+		(at 138.43 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad15b9e-09b1-4dee-bd45-254f9b36a33c")
+	)
+	(junction
 		(at 95.25 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0482c6-bbb2-4689-abfc-858403c7d17d")
+	)
+	(junction
+		(at 241.3 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547c045f-6e76-468e-b60c-26ad0a089246")
 	)
 	(junction
 		(at 35.56 66.04)
@@ -12289,6 +12295,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bf2ce6f-0efa-4f99-99a2-9e304ff6d964")
+	)
+	(junction
+		(at 151.13 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f55d12-13b0-4273-a87b-ce37eb451696")
 	)
 	(junction
 		(at 95.25 156.21)
@@ -12398,6 +12410,12 @@
 		(color 0 0 0 0)
 		(uuid "fd5ce441-9997-4d67-ad5a-7653411a976f")
 	)
+	(junction
+		(at 138.43 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffaa9db3-0678-44e7-9af1-2cf28a2ab9d5")
+	)
 	(no_connect
 		(at 137.16 82.55)
 		(uuid "108f0c5d-bde0-4300-9f65-c7f499b86b35")
@@ -12506,6 +12524,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 48.26) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139d5fc4-1e77-4307-8e3c-b6cbdbcce742")
+	)
+	(wire
+		(pts
 			(xy 177.8 69.85) (xy 184.15 69.85)
 		)
 		(stroke
@@ -12533,16 +12561,6 @@
 			(type default)
 		)
 		(uuid "1911fd8c-3db0-41a0-b555-6093368798c4")
-	)
-	(wire
-		(pts
-			(xy 151.13 48.26) (xy 151.13 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c94391a-20ff-4775-9b3c-f12a9719dd6f")
 	)
 	(wire
 		(pts
@@ -12603,6 +12621,16 @@
 			(type default)
 		)
 		(uuid "236aecf6-5cf7-4e37-bff8-3c91e4357513")
+	)
+	(wire
+		(pts
+			(xy 241.3 102.87) (xy 246.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e0263b-583c-4925-a4ba-ee82d2f12b97")
 	)
 	(wire
 		(pts
@@ -12696,7 +12724,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 102.87) (xy 246.38 102.87)
+			(xy 236.22 102.87) (xy 241.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -12863,6 +12891,16 @@
 			(type default)
 		)
 		(uuid "4c38c2b1-8d16-4f69-8374-90ef23ed7ebe")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3839e4-33e6-4a3f-b5d9-0231c20c7cb6")
 	)
 	(wire
 		(pts
@@ -13086,7 +13124,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 171.45) (xy 140.97 171.45)
+			(xy 125.73 171.45) (xy 138.43 171.45)
 		)
 		(stroke
 			(width 0)
@@ -13113,6 +13151,16 @@
 			(type default)
 		)
 		(uuid "89398afc-deb1-40f4-b0e0-2f5115a5cb6b")
+	)
+	(wire
+		(pts
+			(xy 138.43 138.43) (xy 140.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c755b1e-8e12-4ea6-a2bb-000d3413b4bb")
 	)
 	(wire
 		(pts
@@ -13226,7 +13274,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 138.43) (xy 140.97 138.43)
+			(xy 125.73 138.43) (xy 138.43 138.43)
 		)
 		(stroke
 			(width 0)
@@ -18228,7 +18276,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 236.22 102.87 180)
+		(at 241.3 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18238,7 +18286,7 @@
 		(dnp no)
 		(uuid "445db25e-3691-454f-b775-7dc00981e2e1")
 		(property "Reference" "TP12"
-			(at 238.76 104.9019 0)
+			(at 243.84 109.9819 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18250,7 +18298,7 @@
 			)
 		)
 		(property "Value" "PD_FAULT"
-			(at 246.634 106.172 0)
+			(at 246.38 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18261,7 +18309,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 236.22 102.87 0)
+			(at 241.3 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18272,7 +18320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 102.87 0)
+			(at 241.3 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18283,7 +18331,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 102.87 0)
+			(at 241.3 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18313,7 +18361,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 138.43 171.45 0)
+		(at 138.43 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18323,7 +18371,7 @@
 		(dnp no)
 		(uuid "4ac4f510-87a1-4e29-b720-534e50a5ed92")
 		(property "Reference" "TP4"
-			(at 135.89 169.4181 0)
+			(at 135.89 164.3381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18346,7 +18394,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 138.43 171.45 0)
+			(at 138.43 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18357,7 +18405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 171.45 0)
+			(at 138.43 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18368,7 +18416,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 138.43 171.45 0)
+			(at 138.43 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19794,7 +19842,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 138.43 138.43 0)
+		(at 138.43 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19804,7 +19852,7 @@
 		(dnp no)
 		(uuid "97c95144-dcc0-4549-a0b2-36de028d4345")
 		(property "Reference" "TP2"
-			(at 135.89 136.3981 0)
+			(at 135.89 131.3181 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19816,7 +19864,7 @@
 			)
 		)
 		(property "Value" "PD_VBUS_OUT"
-			(at 132.08 132.842 0)
+			(at 132.08 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19827,7 +19875,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 138.43 138.43 0)
+			(at 138.43 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19838,7 +19886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 138.43 0)
+			(at 138.43 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19849,7 +19897,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 138.43 138.43 0)
+			(at 138.43 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20848,7 +20896,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 163.83 48.26 270)
+		(at 168.91 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20858,7 +20906,7 @@
 		(dnp no)
 		(uuid "c23fbb2c-3176-479f-9dc7-612ff60e25c3")
 		(property "Reference" "TP6"
-			(at 165.8619 45.72 0)
+			(at 170.9419 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20870,7 +20918,7 @@
 			)
 		)
 		(property "Value" "PD_3V3"
-			(at 168.91 48.2599 90)
+			(at 167.894 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20881,7 +20929,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 163.83 48.26 0)
+			(at 168.91 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20892,7 +20940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 48.26 0)
+			(at 168.91 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20903,7 +20951,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 163.83 48.26 0)
+			(at 168.91 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21503,7 +21551,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 151.13 48.26 90)
+		(at 146.05 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21513,7 +21561,7 @@
 		(dnp no)
 		(uuid "e2c22242-d1ff-4943-9ed0-388e5b4f2334")
 		(property "Reference" "TP5"
-			(at 149.0981 50.8 0)
+			(at 144.0181 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21525,7 +21573,7 @@
 			)
 		)
 		(property "Value" "PD_1V8"
-			(at 146.05 48.2601 90)
+			(at 146.558 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21536,7 +21584,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 151.13 48.26 0)
+			(at 146.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21547,7 +21595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 48.26 0)
+			(at 146.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21558,7 +21606,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 151.13 48.26 0)
+			(at 146.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

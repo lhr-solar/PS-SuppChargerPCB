@@ -869,16 +869,16 @@
 				)
 			)
 		)
-		(symbol "ZJY200S0800TG01_0_1"
+		(symbol "ZJY200S0800TG01_1_1"
 			(rectangle
 				(start -6.35 8.89)
 				(end 6.35 -8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

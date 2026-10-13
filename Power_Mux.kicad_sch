@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c8207045-8aef-4538-bcc4-1e380c549c2c")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -642,8 +642,8 @@
 		(uuid "d6a9306f-b1fa-4bc1-b6ad-f07384e87bff")
 	)
 	(rectangle
-		(start 15.24 102.616)
-		(end 95.25 163.576)
+		(start 110.49 31.75)
+		(end 190.5 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -655,7 +655,7 @@
 	)
 	(text "Max and min threshold voltage calculations for 3v3 and 5v\n[delete this if you want :^)]"
 		(exclude_from_sim no)
-		(at 54.864 106.934 0)
+		(at 150.114 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -665,7 +665,7 @@
 	)
 	(text "3v3\n"
 		(exclude_from_sim no)
-		(at 20.32 115.57 0)
+		(at 115.57 44.704 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -695,7 +695,7 @@
 	)
 	(text "5v "
 		(exclude_from_sim no)
-		(at 58.42 115.316 0)
+		(at 153.67 44.45 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1006,7 +1006,7 @@
 		(uuid "e8cc8498-c0dc-4fac-8fb8-41a4cfe2200c")
 	)
 	(image
-		(at 35.56 136.398)
+		(at 130.81 65.532)
 		(scale 0.364641)
 		(uuid "a9d73a7b-c99c-4d07-8c0e-da81a799d630")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAX4AAAGJCAIAAAACL88KAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -1324,7 +1324,7 @@
 		)
 	)
 	(image
-		(at 73.66 136.398)
+		(at 168.91 65.532)
 		(scale 0.363383)
 		(uuid "e5c374f8-6e66-412e-8355-5d0fa790a1c5")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAYAAAAGICAIAAADH9qCFAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
