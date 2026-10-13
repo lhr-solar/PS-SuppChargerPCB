@@ -1117,7 +1117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad9479c-61c4-413e-be8f-bc4332cc138b")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 116.84 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1209,7 +1209,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24fcb712-ec7d-4e03-abec-973a60c7fc4d")
-		(property "Reference" "C49"
+		(property "Reference" "C31"
 			(at 43.18 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +1313,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C49")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -1331,7 +1331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4167d7b8-75e3-4e65-99d5-ad801a16910b")
-		(property "Reference" "C56"
+		(property "Reference" "C34"
 			(at 168.91 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C56")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1435,7 +1435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f81f59f-c69c-46ee-82df-6fe9c50d1e72")
-		(property "Reference" "R31"
+		(property "Reference" "R42"
 			(at 29.21 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,7 +1543,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R31")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1561,7 +1561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "677a42c6-76e6-47be-aac5-b08910d75f02")
-		(property "Reference" "C57"
+		(property "Reference" "C32"
 			(at 63.5 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C57")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73b90a9d-41e6-4289-b94a-cc138e0d453b")
-		(property "Reference" "R34"
+		(property "Reference" "R44"
 			(at 54.356 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1759,7 +1759,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R34")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88c122e9-8ce9-40ce-83e6-025e338425fa")
-		(property "Reference" "R33"
+		(property "Reference" "R45"
 			(at 159.766 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +1871,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R33")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1889,7 +1889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c448a508-a2ab-4232-9898-93fa7e69d961")
-		(property "Reference" "R32"
+		(property "Reference" "R43"
 			(at 29.21 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2096,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R32")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2113,7 +2113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8981ca8-96be-4d82-9698-0263d198e931")
-		(property "Reference" "C48"
+		(property "Reference" "C33"
 			(at 132.588 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2199,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "C48")
+					(reference "C33")
 					(unit 1)
 				)
 			)

@@ -1984,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1c8b0-f199-43b5-8a72-395cd877a32e")
-		(property "Reference" "D9"
+		(property "Reference" "D14"
 			(at 115.57 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2092,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2110,7 +2110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 44.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2254,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2356,7 +2356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 68.58 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2446,7 +2446,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "D8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2463,7 +2463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C31"
+		(property "Reference" "C2"
 			(at 73.2028 49.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2555,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "C31")
+					(reference "C2")
 					(unit 1)
 				)
 			)
