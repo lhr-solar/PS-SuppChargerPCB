@@ -9598,22 +9598,10 @@
 		(uuid "9e2f15a5-aae6-46d3-aca8-fcccdad82daa")
 	)
 	(junction
-		(at 77.47 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5ad550e-d876-4d34-8400-f60e466ded15")
-	)
-	(junction
 		(at 134.62 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beeb596d-f79f-44f7-81a3-732afe5aabc0")
-	)
-	(junction
-		(at 92.71 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c790cd4b-e224-4991-b244-1e6be5cd6601")
 	)
 	(junction
 		(at 30.48 151.13)
@@ -10545,7 +10533,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 133.35) (xy 101.6 133.35)
+			(xy 81.28 133.35) (xy 101.6 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10575,7 +10563,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 168.91) (xy 87.63 168.91)
+			(xy 67.31 168.91) (xy 87.63 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10955,16 +10943,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 92.71 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9cd229-d449-43d0-83e2-d62838587c79")
-	)
-	(wire
-		(pts
 			(xy 83.82 34.29) (xy 87.63 34.29)
 		)
 		(stroke
@@ -10982,16 +10960,6 @@
 			(type default)
 		)
 		(uuid "de6c1a47-656a-4855-8a23-0b087a56a229")
-	)
-	(wire
-		(pts
-			(xy 67.31 168.91) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deef7906-c183-4af7-a795-3e7b6d738f13")
 	)
 	(wire
 		(pts
@@ -15622,83 +15590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 92.71 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b2ecd0a-6aef-4eed-ad0d-4537fa42aca9")
-		(property "Reference" "#PWR013"
-			(at 92.71 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+14.7V"
-			(at 92.456 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 92.71 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c291fb4-9c6c-48d3-8bf6-d5f3da8d4688")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
 		(at 168.91 30.48 0)
 		(mirror y)
@@ -18136,83 +18027,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 77.47 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f1e2687d-52eb-4515-9560-c305badafba0")
-		(property "Reference" "#PWR016"
-			(at 77.47 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 77.216 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56091c9a-da6c-4f50-b4b4-0ab60fd1933d")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
