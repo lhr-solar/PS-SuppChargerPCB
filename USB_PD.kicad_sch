@@ -12273,12 +12273,6 @@
 		(uuid "5d5e45e5-38f4-42ca-a3c3-23361083decd")
 	)
 	(junction
-		(at 187.96 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5db10e5f-ef0f-457c-9ee1-4f2b63f03268")
-	)
-	(junction
 		(at 88.9 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12345,12 +12339,6 @@
 		(uuid "b5ec3bfd-4107-4ce2-b991-bd23cccf57c2")
 	)
 	(junction
-		(at 187.96 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb72b717-9bfb-440f-af23-b4034a647a4e")
-	)
-	(junction
 		(at 46.99 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12361,12 +12349,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b584be-e4b5-44ea-90e4-48cac1dcec19")
-	)
-	(junction
-		(at 184.15 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c52cc9ed-0984-47c5-b83c-99b2eed03769")
 	)
 	(junction
 		(at 55.88 138.43)
@@ -12534,7 +12516,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 69.85) (xy 184.15 69.85)
+			(xy 177.8 69.85) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12661,16 +12643,6 @@
 			(type default)
 		)
 		(uuid "2af13517-25df-4119-86ad-7271ae64d5c0")
-	)
-	(wire
-		(pts
-			(xy 187.96 57.15) (xy 187.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b8f125e-5e08-4daa-8599-39e353f6f32c")
 	)
 	(wire
 		(pts
@@ -12834,16 +12806,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 187.96 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4608d5b4-10a1-45b1-8d2a-266f49e11199")
-	)
-	(wire
-		(pts
 			(xy 55.88 138.43) (xy 67.31 138.43)
 		)
 		(stroke
@@ -12901,16 +12863,6 @@
 			(type default)
 		)
 		(uuid "4d3839e4-33e6-4a3f-b5d9-0231c20c7cb6")
-	)
-	(wire
-		(pts
-			(xy 184.15 68.58) (xy 184.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e26b6aa-b2ac-42d4-a4f7-56427befd8db")
 	)
 	(wire
 		(pts
@@ -13214,16 +13166,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 184.15 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915ad4a3-5b17-4ffa-8080-3c9776c1c789")
-	)
-	(wire
-		(pts
 			(xy 81.28 91.44) (xy 81.28 90.17)
 		)
 		(stroke
@@ -13231,16 +13173,6 @@
 			(type default)
 		)
 		(uuid "92a56f3d-6822-4eee-bb93-4170cb2bfae0")
-	)
-	(wire
-		(pts
-			(xy 187.96 72.39) (xy 191.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "950c3428-5325-4966-b7d2-9de67bd06f4e")
 	)
 	(wire
 		(pts
@@ -13324,16 +13256,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 60.96) (xy 184.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42238b7-9e95-4f2e-b90c-d105689799b7")
-	)
-	(wire
-		(pts
 			(xy 25.4 168.91) (xy 25.4 171.45)
 		)
 		(stroke
@@ -13374,16 +13296,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 60.96) (xy 187.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af571d3b-b1cd-4480-a5a7-9cde55eff4ac")
-	)
-	(wire
-		(pts
 			(xy 81.28 59.69) (xy 81.28 58.42)
 		)
 		(stroke
@@ -13421,16 +13333,6 @@
 			(type default)
 		)
 		(uuid "b8530652-0d74-4914-b88f-c9bcf13748b2")
-	)
-	(wire
-		(pts
-			(xy 184.15 69.85) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe8fcc5-dba6-41f7-a1ae-6bec4b182aa2")
 	)
 	(wire
 		(pts
@@ -13734,7 +13636,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 72.39) (xy 187.96 72.39)
+			(xy 177.8 72.39) (xy 191.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -16725,16 +16627,6 @@
 		(uuid "3fe44c0f-f63f-4dee-8b77-92b372a747db")
 	)
 	(label "PD_3V3"
-		(at 187.96 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42759382-62b9-4168-addd-a347088ced87")
-	)
-	(label "PD_3V3"
 		(at 240.03 43.18 0)
 		(effects
 			(font
@@ -18888,115 +18780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 187.96 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d622cb0-97d8-4db1-86de-3047f251af36")
-		(property "Reference" "R34"
-			(at 189.23 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 189.23 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 187.96 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 187.96 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C844925"
-			(at 187.96 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06032K20FKEA"
-			(at 187.96 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6be566b2-3eef-4ea9-91d8-ecc5497f6046")
-		)
-		(pin "1"
-			(uuid "adf5aa0c-0ba0-48c2-b7f4-94a13cb76bc9")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/0c013a70-ec03-4913-a24e-33c4630278d4"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "USB_PD"
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_power:SMBJ24A-E3_52")
 		(at 35.56 48.26 90)
 		(mirror x)
@@ -20140,116 +19923,6 @@
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 184.15 66.04 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af221dfe-7731-405f-90b6-402bc8c1c4b6")
-		(property "Reference" "R33"
-			(at 182.88 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 182.88 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C844925"
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06032K20FKEA"
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "51a227e6-46cf-49be-9842-8969431723e3")
-		)
-		(pin "1"
-			(uuid "7611224d-3d06-47cf-b0e3-cdc780a3b898")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/0c013a70-ec03-4913-a24e-33c4630278d4"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-			(project "USB_PD"
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "R13")
 					(unit 1)
 				)
 			)
