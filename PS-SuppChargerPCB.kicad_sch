@@ -10733,6 +10733,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 26.67) (xy 209.55 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af80c946-1f0c-4eb7-80c6-9cd738336aa7")
+	)
+	(wire
+		(pts
 			(xy 60.96 168.91) (xy 67.31 168.91)
 		)
 		(stroke
@@ -11100,6 +11110,16 @@
 			(type default)
 		)
 		(uuid "fdd51335-772c-47eb-a6db-0fdf57a35f39")
+	)
+	(wire
+		(pts
+			(xy 43.18 95.25) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffde1700-b831-49e3-bc32-93273b1a28c5")
 	)
 	(label "VBUCK_OUT"
 		(at 62.23 168.91 0)
@@ -11642,7 +11662,7 @@
 		(uuid "c1742372-28b1-4c43-a60f-a13fd9d06353")
 	)
 	(label "PS_VOUT"
-		(at 41.91 95.25 0)
+		(at 43.18 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11742,7 +11762,7 @@
 		(uuid "e4e37657-8ced-4a41-bb6b-5876d7109364")
 	)
 	(label "USB_VBUS"
-		(at 209.55 26.67 180)
+		(at 208.28 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)

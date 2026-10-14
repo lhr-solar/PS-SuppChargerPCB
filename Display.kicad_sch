@@ -10263,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PS-Supp-Footprints:ZJY200S0800TG01"
 			(at 109.22 36.83 0)
 			(hide yes)
 			(show_name no)
