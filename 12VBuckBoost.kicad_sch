@@ -1295,12 +1295,6 @@
 		(uuid "222719b5-3948-4bac-9750-c3d775fb42b4")
 	)
 	(junction
-		(at 120.65 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24cc3676-47bb-440b-b068-629b9ceda70a")
-	)
-	(junction
 		(at 143.51 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1347,6 +1341,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8292331f-2b57-4e46-b080-5a04dc9eeee3")
+	)
+	(junction
+		(at 120.65 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c3caf8-d900-4aed-8097-c24e533cdb86")
 	)
 	(junction
 		(at 241.3 55.88)
@@ -1512,6 +1512,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 45.72) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bca3147-4e34-409d-b487-e4b5a668e20d")
+	)
+	(wire
+		(pts
 			(xy 176.53 60.96) (xy 173.99 60.96)
 		)
 		(stroke
@@ -1539,16 +1549,6 @@
 			(type default)
 		)
 		(uuid "552779e7-6ea8-4614-ae5e-a5c5a152e237")
-	)
-	(wire
-		(pts
-			(xy 107.95 45.72) (xy 120.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da8ec85-7524-4270-b3f6-e29b1dc70bf3")
 	)
 	(wire
 		(pts
@@ -1609,6 +1609,16 @@
 			(type default)
 		)
 		(uuid "97cde93d-4211-4a56-9b8e-03f9371800b0")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 120.65 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04ac3be-ecfd-4a66-ace2-a215b265059f")
 	)
 	(wire
 		(pts
@@ -6648,7 +6658,7 @@
 	)
 	(hierarchical_label "PGND"
 		(shape input)
-		(at 102.87 45.72 270)
+		(at 101.6 45.72 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6714,7 +6724,7 @@
 	)
 	(hierarchical_label "AGND"
 		(shape input)
-		(at 107.95 45.72 270)
+		(at 109.22 45.72 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6966,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2278b310-6ba3-409b-90ad-92ff5f73a885")
-		(property "Reference" "R41"
+		(property "Reference" "R40"
 			(at 243.84 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +7068,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R41")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7162,7 +7172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e25252c-bb5a-4b7b-a381-bff3bcfd9857")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 210.82 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7264,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7379,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4d47eb83-ab87-4372-b720-aeb4182cc4cb")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 176.53 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7449,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8005,7 +8015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ebf34f6-015d-4123-afbf-454ab652339d")
-		(property "Reference" "R40"
+		(property "Reference" "R39"
 			(at 243.84 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8107,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R40")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8714,7 +8724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b38183e-2f83-4729-a9ad-c4930a062d55")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 229.87 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +8814,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8823,7 +8833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8af2c37-a018-4182-9281-2d99cd703fb0")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 118.11 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,7 +8925,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/9a8c28a4-c24a-4585-be32-9284d6648335"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)

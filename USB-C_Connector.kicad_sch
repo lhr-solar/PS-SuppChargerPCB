@@ -1984,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1c8b0-f199-43b5-8a72-395cd877a32e")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 115.57 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2092,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2130,7 +2130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_ICs:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "LHRS_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2356,7 +2356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 68.58 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2446,7 +2446,7 @@
 			)
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/ec016523-8b34-47f1-ab1c-e2da371f5914"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)

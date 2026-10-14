@@ -7106,7 +7106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81cd1a4a-8cc5-47c2-bdcd-52cc2352742f")
-		(property "Reference" "R61"
+		(property "Reference" "R60"
 			(at 171.45 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +7170,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf"
-					(reference "R61")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4713cc-4562-4772-acf2-0d9b6313899b")
-		(property "Reference" "R64"
+		(property "Reference" "R58"
 			(at 135.89 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7252,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf"
-					(reference "R64")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -7424,7 +7424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee8aef1c-a12e-4ea8-a98b-503c599a7f0f")
-		(property "Reference" "R60"
+		(property "Reference" "R59"
 			(at 171.45 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7446,7 +7446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7488,7 +7488,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf"
-					(reference "R60")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f002a38d-4aa1-4b8b-8cb5-da039e863ae6")
-		(property "Reference" "R63"
+		(property "Reference" "R57"
 			(at 135.89 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7647,7 +7647,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf"
-					(reference "R63")
+					(reference "R57")
 					(unit 1)
 				)
 			)

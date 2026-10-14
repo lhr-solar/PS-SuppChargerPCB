@@ -1147,9 +1147,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1157,7 +1161,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1166,8 +1170,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1198,7 +1202,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1220,7 +1224,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1231,9 +1235,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1241,6 +1245,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -9640,6 +9664,14 @@
 		(uuid "fb5ae816-b77e-4b6c-8d3a-d57c79161ce1")
 	)
 	(no_connect
+		(at 237.49 104.14)
+		(uuid "02147ae0-a98e-4a88-93ff-89b9b07caf0e")
+	)
+	(no_connect
+		(at 260.35 92.71)
+		(uuid "0227d457-33a4-493c-b382-4c4d711b890d")
+	)
+	(no_connect
 		(at 139.7 54.61)
 		(uuid "19d35289-00e6-4f37-be4a-389354f2e2fc")
 	)
@@ -9670,6 +9702,14 @@
 	(no_connect
 		(at 31.75 127)
 		(uuid "e2966840-877d-4aee-b161-befabff3c886")
+	)
+	(no_connect
+		(at 237.49 92.71)
+		(uuid "e80b61d8-5bdd-467b-959d-b56b40b6be7c")
+	)
+	(no_connect
+		(at 260.35 104.14)
+		(uuid "f555b732-4ec3-4098-bbef-f16826e13bc6")
 	)
 	(wire
 		(pts
@@ -10283,7 +10323,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 97.79) (xy 41.91 97.79)
+			(xy 43.18 100.33) (xy 41.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -11082,7 +11122,7 @@
 		(uuid "03864822-bb5e-4ada-bd1f-74c878fd51e6")
 	)
 	(label "DS_SDA"
-		(at 222.25 91.44 0)
+		(at 220.98 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11152,7 +11192,7 @@
 		(uuid "19c82c40-26b2-4cf6-b692-295ed5cf2d76")
 	)
 	(label "I2C_SCL"
-		(at 203.2 93.98 0)
+		(at 201.93 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11242,7 +11282,7 @@
 		(uuid "3d9e7abf-4082-49d9-b1f7-d7d40a1c7f55")
 	)
 	(label "CC1"
-		(at 203.2 102.87 0)
+		(at 201.93 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11602,7 +11642,7 @@
 		(uuid "c1742372-28b1-4c43-a60f-a13fd9d06353")
 	)
 	(label "PS_VOUT"
-		(at 41.91 92.71 0)
+		(at 41.91 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11652,7 +11692,7 @@
 		(uuid "d9628bd9-84ba-47a2-8c2b-3d925012d22b")
 	)
 	(label "I2C_SDA"
-		(at 203.2 91.44 0)
+		(at 201.93 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11752,7 +11792,7 @@
 		(uuid "f0f90487-740d-4e5a-9a46-5fe358f7425a")
 	)
 	(label "DS_SCL"
-		(at 222.25 93.98 0)
+		(at 220.98 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11762,7 +11802,7 @@
 		(uuid "f60fb009-201d-413f-aaa6-09011f79d451")
 	)
 	(label "CC2"
-		(at 203.2 105.41 0)
+		(at 201.93 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11793,7 +11833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001a76a5-669c-4fc5-bf3a-7758379938d3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11853,7 +11893,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11870,7 +11910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01608384-6fb2-4eda-ad12-79f05b8d27e9")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 243.84 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +11930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 243.84 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11972,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11950,7 +11990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0260fb10-dc69-4a7f-9b77-5aea8ec236c7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 229.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12010,7 +12050,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12028,7 +12068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b6d309-f552-4789-9d7f-1d5fd05a9e7c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 270.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12088,7 +12128,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12106,7 +12146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063de5c7-be7d-4bed-bb9d-66e637c3b4cf")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 222.25 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12166,7 +12206,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12183,7 +12223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0de96ce0-4fe1-4918-a862-0edc5e609802")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 223.52 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -12245,7 +12285,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12263,7 +12303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12ee5bb1-f164-4ebd-84ba-49b35854ce7b")
-		(property "Reference" "D25"
+		(property "Reference" "D13"
 			(at 260.35 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12283,7 +12323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 260.35 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12336,7 +12376,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D25")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12453,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.4452 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12513,7 +12553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a6f8529-f7c2-4e2c-9f57-3662f31c2dd1")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 213.36 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12533,7 +12573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 213.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +12626,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12604,7 +12644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231a06f9-5f50-4e5f-b26e-726494cf9c03")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 213.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,7 +12664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 213.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12677,7 +12717,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12695,7 +12735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2392cb1e-8594-42bc-9258-fce13a183a6b")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 254 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12715,7 +12755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12768,7 +12808,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12920,7 +12960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24e6ee98-56de-44b3-aaa2-1d7208e882d3")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 215.9 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +12980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 215.9 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -12982,7 +13022,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12999,7 +13039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26743d3e-45e2-4ab5-ac26-8cef96f33c94")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 264.16 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 264.16 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -13061,7 +13101,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13078,7 +13118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26fbad40-ea6f-4067-94d0-0ccf232ea301")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 223.52 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13098,7 +13138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -13140,7 +13180,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13389,7 +13429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "404ef7e3-5bad-45b6-8ae9-a33444105be1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13449,7 +13489,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13490,7 +13530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Banana_Jack_1_Pin_4mm"
 			(at 30.48 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13546,7 +13586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "449abd1f-9b33-47e0-8031-be5704262cd5")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 223.52 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +13606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -13608,7 +13648,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13626,7 +13666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d2edea-ce20-4200-a4f9-d6f83c23ae25")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 205.74 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13646,7 +13686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 205.74 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13699,7 +13739,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13717,7 +13757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d71252-296d-4e29-ac19-8eea15acd861")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 229.87 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13777,7 +13817,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13794,7 +13834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "465a298b-636f-464a-9213-419fce8eadd0")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 264.16 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13814,7 +13854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 264.16 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -13856,83 +13896,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 238.76 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "474131b5-6a88-4abd-bfcf-8e831d600fd9")
-		(property "Reference" "H1"
-			(at 241.3 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 241.3 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 238.76 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13950,7 +13914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b90f60f-2ad0-4bb6-a404-2f8589f716ef")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 254 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13970,7 +13934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 254 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14023,7 +13987,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -14031,7 +13995,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_connectors:CarLVPowerConnector")
-		(at 34.29 95.25 0)
+		(at 34.29 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14041,7 +14005,7 @@
 		(dnp no)
 		(uuid "51399683-4d3a-4b6c-9f29-52ff415e36f6")
 		(property "Reference" "J3"
-			(at 29.21 93.9799 0)
+			(at 29.21 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14052,7 +14016,7 @@
 			)
 		)
 		(property "Value" "CarLVPowerConnector"
-			(at 39.37 100.584 0)
+			(at 39.37 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14063,7 +14027,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
-			(at 34.29 95.25 0)
+			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14074,7 +14038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 95.25 0)
+			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14085,7 +14049,7 @@
 			)
 		)
 		(property "Description" "Connector for the car's 24V power bus"
-			(at 34.29 95.25 0)
+			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,7 +14060,7 @@
 			)
 		)
 		(property "P/N" "1053091102"
-			(at 34.29 95.25 0)
+			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14133,7 +14097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52c491c8-494c-4189-aade-3a6095d3ec82")
-		(property "Reference" "TP19"
+		(property "Reference" "TP4"
 			(at 98.298 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14194,7 +14158,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP19")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14337,7 +14301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55849d2a-a077-42b7-8349-d3a38e623b84")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 213.36 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,7 +14321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 213.36 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14410,7 +14374,86 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D3")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 237.49 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56835f72-2260-4187-8d03-5e6df181c56c")
+		(property "Reference" "H2"
+			(at 240.03 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 240.03 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 237.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 237.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0da9f255-f8e5-4969-a72e-a8902d3ce5eb")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c659361-a0fa-4d63-b8e9-06ccea26818a")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 264.16 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14525,7 +14568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 264.16 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -14567,7 +14610,86 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R12")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 260.35 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619032b5-7bbc-4f93-ab55-5b861dd10d8b")
+		(property "Reference" "H3"
+			(at 262.89 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b9bd0ee-66b9-4c48-b9e1-6135e68583cc")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14585,7 +14707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c77753-3c38-4cb0-969b-09237ccc449a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 36.83 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14645,7 +14767,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14653,7 +14775,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 198.12 91.44 0)
+		(at 196.85 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14663,7 +14785,7 @@
 		(dnp no)
 		(uuid "68225511-fc52-499e-a296-c53916eb8f1e")
 		(property "Reference" "J5"
-			(at 198.12 85.852 0)
+			(at 196.85 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14673,7 +14795,7 @@
 			)
 		)
 		(property "Value" "TP_I2C"
-			(at 201.93 87.884 0)
+			(at 200.66 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14682,8 +14804,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.12 91.44 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14694,7 +14816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 91.44 0)
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14705,7 +14827,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 198.12 91.44 0)
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14725,82 +14847,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 262.89 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68bc1651-3606-4170-ab39-e915cd6eeb10")
-		(property "Reference" "H3"
-			(at 265.43 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 265.43 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 262.89 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14975,7 +15021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d7d3ff-9e63-4631-ad99-13aa21f07337")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 137.16 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15035,7 +15081,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15053,7 +15099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa6bdf7-d45f-455d-b3d9-70e9d509df53")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 270.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15113,7 +15159,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15131,7 +15177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd57fae-590a-49bb-852c-4a3c58d58d3f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 270.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15191,7 +15237,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15209,7 +15255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef8599e-b077-4b0b-83cf-d3e5afdc6b17")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 229.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15269,7 +15315,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15287,7 +15333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822c5c51-1ea7-47ad-8d9e-bbbff6e822ff")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 270.51 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15347,7 +15393,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15364,7 +15410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "822f3170-85aa-4be9-8107-bf9082f6e8e7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR013"
 			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15424,7 +15470,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR044")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15464,7 +15510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.262 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -15590,6 +15636,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 237.49 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b736c7b-ffc2-4b76-b35c-751209e78d13")
+		(property "Reference" "H1"
+			(at 240.03 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 240.03 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 237.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 237.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b040a974-12d2-412a-9273-49e71565cc21")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
 		(at 168.91 30.48 0)
 		(mirror y)
@@ -15601,7 +15726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e408a1c-1d88-4cc0-8581-db3a7b448d54")
-		(property "Reference" "TP8"
+		(property "Reference" "TP10"
 			(at 170.18 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15662,7 +15787,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP8")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15702,7 +15827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15752,7 +15877,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 217.17 91.44 0)
+		(at 215.9 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15762,7 +15887,7 @@
 		(dnp no)
 		(uuid "9085e2b9-c460-4721-b98d-537d258c3677")
 		(property "Reference" "J7"
-			(at 217.424 86.106 0)
+			(at 216.154 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15772,7 +15897,7 @@
 			)
 		)
 		(property "Value" "TP_DS SPI"
-			(at 221.234 88.138 0)
+			(at 219.964 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15781,8 +15906,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.17 91.44 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +15918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 91.44 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15804,7 +15929,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 217.17 91.44 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15840,7 +15965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a57c764-a324-4d44-82c4-1052ee157754")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 259.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -15900,7 +16025,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15918,7 +16043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b98e48a-06b1-45c1-9dff-615a8a963d87")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 233.68 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15938,7 +16063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15991,7 +16116,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -16008,7 +16133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c292aa9-15de-4919-a140-673cc06292df")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 163.83 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16068,7 +16193,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16107,7 +16232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
 			(at 162.56 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16156,6 +16281,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 260.35 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1494423-3240-4b93-a9f4-234a9ffd6ea8")
+		(property "Reference" "H4"
+			(at 262.89 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1570b5b-09db-4734-abe3-914d87887918")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 172.72 0)
 		(unit 1)
@@ -16166,7 +16370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a298869a-c9fa-487d-a5a6-e493f961d4b7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16226,7 +16430,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -16398,7 +16602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aeb90c1b-6037-4d2d-ade7-6f619f44bb00")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 213.36 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16418,7 +16622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 213.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16471,7 +16675,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16489,7 +16693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afc1dcf1-3045-49f8-8280-c068c6a7e1b2")
-		(property "Reference" "TP9"
+		(property "Reference" "TP8"
 			(at 159.004 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16550,7 +16754,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -16558,7 +16762,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 198.12 102.87 0)
+		(at 196.85 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16568,7 +16772,7 @@
 		(dnp no)
 		(uuid "b3d8e81c-dbbb-4ad5-9df2-f1a18ac80b5b")
 		(property "Reference" "J6"
-			(at 198.374 97.536 0)
+			(at 197.104 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16578,7 +16782,7 @@
 			)
 		)
 		(property "Value" "TP_USB_CC"
-			(at 201.93 99.568 0)
+			(at 200.66 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16587,8 +16791,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.12 102.87 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16599,7 +16803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 102.87 0)
+			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16610,7 +16814,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 198.12 102.87 0)
+			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16647,7 +16851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f48b10-f410-4e01-87aa-77418aec9a33")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR028"
 			(at 250.19 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16707,7 +16911,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR038")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16724,7 +16928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4487d21-8afa-41b2-8606-7fc9ebc79d2a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 255.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16784,7 +16988,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16823,7 +17027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -16951,82 +17155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 262.89 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c071e91f-9f70-4e5b-88b3-9a281629b3a9")
-		(property "Reference" "H4"
-			(at 265.43 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 265.43 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 262.89 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 85.09 0)
 		(unit 1)
@@ -17037,7 +17165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c221978c-8db8-4930-ba3d-daf1ed935009")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 36.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17097,7 +17225,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -17114,7 +17242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c422d814-3fe8-4332-b65a-d265dcf0de25")
-		(property "Reference" "R62"
+		(property "Reference" "R15"
 			(at 270.51 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17134,7 +17262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 270.51 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -17176,7 +17304,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R62")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17193,7 +17321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5a7eb29-f17f-4777-a5bf-9f31ed0364f8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 171.45 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17254,7 +17382,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17271,7 +17399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6559fd2-dea9-4170-95d7-c6b2e07cd39d")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 264.16 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17291,7 +17419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 264.16 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -17333,7 +17461,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17351,7 +17479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86e4074-b7c8-44f2-b27e-e64a982b29f9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR036"
 			(at 276.86 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17411,7 +17539,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR039")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17429,7 +17557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccf6bfe2-5d57-4e8a-a3a2-9dc3946b01f6")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 254 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17449,7 +17577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 254 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17502,83 +17630,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 238.76 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdbed4a3-bcb8-43c1-86ac-fd1d4e8cbda5")
-		(property "Reference" "H2"
-			(at 241.3 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 241.3 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 238.76 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H2")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -17595,7 +17647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc47c57-c15d-4ef2-90f1-0159f9ae0a0f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 228.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17655,7 +17707,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17696,7 +17748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Banana_Jack_1_Pin_4mm"
 			(at 30.48 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17753,7 +17805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33afaec-419f-43f1-9b12-fa8fa4dd1667")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17813,7 +17865,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18043,7 +18095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f405d6d4-65e3-4ed1-bfde-47192f05653e")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 162.56 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18104,7 +18156,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18143,7 +18195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -18202,7 +18254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7ec0b9e-1841-4c1c-aa46-d10868529a48")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 223.52 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18222,7 +18274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -18264,7 +18316,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18361,7 +18413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa799758-29f1-41a9-81f4-7088f5b4f304")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 254 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18381,7 +18433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 254 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18434,7 +18486,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -18474,7 +18526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.262 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -18533,7 +18585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb316e4d-adb3-4337-ba5f-47fc3129217d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 153.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18593,7 +18645,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18601,7 +18653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 97.79 0)
+		(at 43.18 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18611,7 +18663,7 @@
 		(dnp no)
 		(uuid "ff99d2b2-34c2-4b59-8a5e-f82117b51e9f")
 		(property "Reference" "#PWR05"
-			(at 43.18 104.14 0)
+			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18622,7 +18674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 101.092 0)
+			(at 43.18 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18632,7 +18684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 97.79 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18643,7 +18695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 97.79 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18654,7 +18706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 97.79 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
