@@ -300,204 +300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Shunt"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Shunt resistor with Kelvin connections"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sensor_Energy:INA226"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -950,6 +752,17 @@
 		)
 		(uuid "5b16e3d5-2853-4a65-95e5-bfce8a2a89ab")
 	)
+	(text "Shunt Input Voltage:\nShunt Resistance = 10m\nMax Current = 3A\nMax Shunt Input Voltage = 10m * 3A = 30mv\n-81.9175 < 30mV < 81.9175"
+		(exclude_from_sim no)
+		(at 18.796 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb0466d-012f-4154-b7e3-afde9074dc26")
+	)
 	(text "Bypass Cap"
 		(exclude_from_sim no)
 		(at 226.314 56.134 0)
@@ -972,22 +785,34 @@
 		(uuid "c3b47dc5-6d05-4434-bc12-1ca059b2fa39")
 	)
 	(junction
-		(at 90.17 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c122734-8243-42bf-8d64-becca64bddcf")
-	)
-	(junction
 		(at 162.56 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67dc875c-a7bd-4f12-b4f5-5298bd2aec15")
 	)
 	(junction
-		(at 90.17 55.88)
+		(at 69.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd0f67c1-361f-445d-9e86-8dc7f4c30c4c")
+		(uuid "8de42310-e6b7-4334-bba2-405dd53efd1d")
+	)
+	(junction
+		(at 69.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4fedd3-0083-459b-aaf2-75453e7b1a00")
+	)
+	(junction
+		(at 90.17 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc37249-209e-4393-9576-7c7238cd8476")
+	)
+	(junction
+		(at 90.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc96838a-f762-47d4-9c2e-538c5001620d")
 	)
 	(wire
 		(pts
@@ -1031,13 +856,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 63.5) (xy 90.17 63.5)
+			(xy 86.36 54.61) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "265fc8bf-1075-4454-80c7-74223d87f845")
+		(uuid "2871892d-cec9-434e-8567-e3d61e5a8e87")
 	)
 	(wire
 		(pts
@@ -1071,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 99.06 55.88)
+			(xy 90.17 54.61) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1101,23 +926,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 78.74 62.23)
+			(xy 69.85 62.23) (xy 78.74 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77d06532-460f-492c-b8f9-510db1f9a703")
+		(uuid "71e5f229-5709-488d-b301-e84a72543ea6")
 	)
 	(wire
 		(pts
-			(xy 78.74 57.15) (xy 78.74 55.88)
+			(xy 69.85 62.23) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a0cfe36-9aad-47f5-b7c2-ad2cbcd8cf8b")
+		(uuid "7b57f950-7ce4-4b71-9959-7bdf43081d17")
 	)
 	(wire
 		(pts
@@ -1141,16 +966,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 57.15) (xy 78.74 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c7fa083-5dce-4402-bf67-6720bed1ec4b")
-	)
-	(wire
-		(pts
 			(xy 139.7 60.96) (xy 140.97 60.96)
 		)
 		(stroke
@@ -1171,23 +986,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 63.5) (xy 99.06 63.5)
+			(xy 86.36 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96fa57b-555f-4d05-a0a6-c52d49086098")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 99.06 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be899f47-c0fc-40f5-80bb-80f283b9848a")
-	)
-	(wire
-		(pts
-			(xy 90.17 55.88) (xy 86.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43a6630-0e2f-412d-b6a2-6a6eda560112")
 	)
 	(wire
 		(pts
@@ -1201,23 +1016,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 64.77) (xy 69.85 67.31)
+			(xy 69.85 54.61) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6aef517-e9f0-4824-8b0e-d04c851a1f8b")
-	)
-	(wire
-		(pts
-			(xy 78.74 62.23) (xy 78.74 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed04c27c-b80f-423e-a50a-422544ca9781")
+		(uuid "e1c2aca7-c221-4d9e-aa74-9714785cad5f")
 	)
 	(wire
 		(pts
@@ -6635,7 +6440,7 @@
 		(uuid "b1768f30-616e-44fa-9556-dc372668d7a3")
 	)
 	(label "Vin+"
-		(at 99.06 55.88 0)
+		(at 99.06 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6645,7 +6450,7 @@
 		(uuid "c9b72674-ecb2-4cf9-bf7b-62d46746219f")
 	)
 	(label "Vin-"
-		(at 99.06 63.5 0)
+		(at 99.06 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6765,6 +6570,88 @@
 		(uuid "f8ad1584-bd31-4ff9-ba01-bfd2e181b742")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 69.85 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "022c5b7f-031e-476c-b61a-9d1527dad76a")
+		(property "Reference" "R41"
+			(at 67.31 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10m"
+			(at 67.31 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PS-Supp-Footprints:PSR100KTQFJ2L00_ROM"
+			(at 71.628 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a1aecbe-567f-4c96-9ebd-5ebef174de80")
+		)
+		(pin "2"
+			(uuid "2cebe515-7f25-4a87-b746-c50b7a97b9b1")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 234.95 71.12 0)
 		(unit 1)
@@ -6820,6 +6707,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 234.95 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6912,6 +6810,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 151.13 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4c8fd9a7-0d92-42ac-88d3-a6c16d1004d3")
 		)
@@ -6953,7 +6862,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 59.69 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6963,7 +6872,7 @@
 		(dnp no)
 		(uuid "20366210-ccd3-4d4b-9470-c61e9cb9aecc")
 		(property "Reference" "C31"
-			(at 92.964 58.42 0)
+			(at 92.964 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6974,7 +6883,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 93.218 60.96 0)
+			(at 93.218 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6985,7 +6894,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 91.1352 63.5 0)
+			(at 91.1352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6996,7 +6905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 59.69 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7007,7 +6916,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 59.69 0)
+			(at 90.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,94 +6947,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 69.85 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22fc3c14-0b51-42ab-a696-1aee2f78e23b")
-		(property "Reference" "R41"
-			(at 67.31 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2m"
-			(at 67.31 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PS-Supp-Footprints:PSR100KTQFJ2L00_ROM"
-			(at 68.072 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 69.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "14bea6eb-e053-4c0c-b7a6-2cbf51b70f99")
-		)
-		(pin "1"
-			(uuid "0987441c-123d-4a20-8c27-8b033faa99a9")
-		)
-		(pin "2"
-			(uuid "cbeb0b3f-97dc-45f5-8bfc-b2a73fb88698")
-		)
-		(pin "3"
-			(uuid "7f8ae13d-05f4-4f97-b403-cdfeabdc8d88")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/7814c951-9095-4f8d-9e56-f938c21b373e"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -7200,7 +7032,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 63.5 270)
+		(at 82.55 62.23 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7211,7 +7043,7 @@
 		(dnp no)
 		(uuid "8060bb12-7829-45e6-9248-0ee1d1cfd5b8")
 		(property "Reference" "R43"
-			(at 82.55 66.04 90)
+			(at 82.55 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7221,7 +7053,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 82.55 68.326 90)
+			(at 82.55 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7231,7 +7063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.55 65.278 90)
+			(at 82.55 64.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 63.5 0)
+			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +7085,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 63.5 0)
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7201,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 55.88 270)
+		(at 82.55 54.61 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7369,7 +7212,7 @@
 		(dnp no)
 		(uuid "9cdae57a-d4be-48ab-97b5-705e4adf2fb0")
 		(property "Reference" "R42"
-			(at 82.55 52.07 90)
+			(at 82.55 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7379,7 +7222,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 82.55 53.848 90)
+			(at 82.55 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7389,7 +7232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.55 57.658 90)
+			(at 82.55 56.388 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 55.88 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7254,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 55.88 0)
+			(at 82.55 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7571,6 +7425,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 237.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 237.49 40.64 0)
 			(hide yes)
 			(show_name no)
