@@ -12327,12 +12327,6 @@
 		(uuid "b4c6842c-2b36-48e5-bccd-0dc72efd430c")
 	)
 	(junction
-		(at 44.45 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5ada323-6639-4f64-a4e4-386563cbe7c9")
-	)
-	(junction
 		(at 157.48 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20489,91 +20483,6 @@
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 44.45 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0c0b16b-204b-4fd9-8e83-555d511c0b79")
-		(property "Reference" "TP11"
-			(at 41.91 39.8781 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VBUS_IN"
-			(at 46.228 43.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 44.45 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 44.45 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21ed18fe-5f2b-447d-936e-792104a120b3")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee/0c013a70-ec03-4913-a24e-33c4630278d4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "USB_PD"
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
