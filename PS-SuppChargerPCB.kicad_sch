@@ -11155,7 +11155,7 @@
 		)
 		(uuid "10efd000-997a-4f69-a621-7f000f67b9fd")
 	)
-	(label "PS_JUMPER"
+	(label "PP_VIN"
 		(at 68.58 99.06 180)
 		(effects
 			(font
@@ -11255,8 +11255,8 @@
 		)
 		(uuid "2e74581c-1fb9-4e16-8679-c5468b6bfd5c")
 	)
-	(label "PS_JUMPER"
-		(at 77.47 80.01 180)
+	(label "PP_VIN"
+		(at 74.93 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14184,7 +14184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
