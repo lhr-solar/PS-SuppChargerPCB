@@ -9646,12 +9646,6 @@
 		(uuid "dd47ce95-f339-476b-9ef3-0453646d6d18")
 	)
 	(junction
-		(at 153.67 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f07dd0c4-9dfe-49c8-bcc9-b65bceef69d2")
-	)
-	(junction
 		(at 67.31 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9890,16 +9884,6 @@
 			(type default)
 		)
 		(uuid "2496269c-be55-440f-9fcf-831fd8b4c2c1")
-	)
-	(wire
-		(pts
-			(xy 153.67 33.02) (xy 157.48 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2552cad5-5743-4122-ad5b-f01a6e12f6a9")
 	)
 	(wire
 		(pts
@@ -10213,7 +10197,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 130.81) (xy 262.89 130.81)
+			(xy 260.35 128.27) (xy 262.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10303,7 +10287,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 33.02) (xy 153.67 33.02)
+			(xy 134.62 33.02) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10823,7 +10807,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 262.89 128.27)
+			(xy 260.35 130.81) (xy 262.89 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11141,7 +11125,7 @@
 		)
 		(uuid "03864822-bb5e-4ada-bd1f-74c878fd51e6")
 	)
-	(label "DS_SDA"
+	(label "DS_MOSI"
 		(at 220.98 91.44 0)
 		(effects
 			(font
@@ -11201,8 +11185,8 @@
 		)
 		(uuid "1965a2b6-b2dd-42fa-89c4-cafbf172160c")
 	)
-	(label "DS_SDA"
-		(at 260.35 130.81 180)
+	(label "DS_MOSI"
+		(at 260.35 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11361,7 +11345,7 @@
 		)
 		(uuid "43a853a6-4caa-4b91-a9ff-26ef1267e12f")
 	)
-	(label "DS_SCL"
+	(label "DS_CLK"
 		(at 191.77 132.08 180)
 		(effects
 			(font
@@ -11431,7 +11415,7 @@
 		)
 		(uuid "5c045ac0-a1c8-4ff4-b5dd-3b3b2c09d4d2")
 	)
-	(label "DS_SDA"
+	(label "DS_MOSI"
 		(at 191.77 128.27 180)
 		(effects
 			(font
@@ -11701,8 +11685,8 @@
 		)
 		(uuid "d11b807f-6bd7-4404-beeb-07a0515f7dfc")
 	)
-	(label "DS_SCL"
-		(at 260.35 128.27 180)
+	(label "DS_CLK"
+		(at 260.35 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11811,7 +11795,7 @@
 		)
 		(uuid "f0f90487-740d-4e5a-9a46-5fe358f7425a")
 	)
-	(label "DS_SCL"
+	(label "DS_CLK"
 		(at 220.98 93.98 0)
 		(effects
 			(font
@@ -12264,7 +12248,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 223.52 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13067,7 +13051,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 215.9 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13157,7 +13141,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 264.16 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13247,7 +13231,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 223.52 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13726,7 +13710,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 223.52 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13996,7 +13980,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 264.16 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14754,7 +14738,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 264.16 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16067,8 +16051,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 64.643 105.283 0)
+		(property "Value" "PP_SolderJumper_2_Open"
+			(at 63.246 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16238,7 +16222,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3A"
+		(property "Value" "+3V3"
 			(at 258.572 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17737,7 +17721,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 264.16 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18625,7 +18609,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 223.52 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18963,83 +18947,6 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb316e4d-adb3-4337-ba5f-47fc3129217d")
-		(property "Reference" "#PWR015"
-			(at 153.67 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 153.416 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cff45ad-4358-43d9-93df-3e96294f10de")
-		)
-		(instances
-			(project "PS-SuppChargerPCB"
-				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19522,9 +19429,19 @@
 				(justify left)
 			)
 		)
+		(pin "DS_Vin" input
+			(at 262.89 124.46 180)
+			(uuid "0ee17517-90ee-43c1-a13f-0f97f143db2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "SCL" input
-			(at 262.89 128.27 180)
-			(uuid "5191a89b-6df3-49fc-916b-14ba23818ab9")
+			(at 262.89 130.81 180)
+			(uuid "b54df2d7-fe02-4fe4-9dc0-5e62aa1f9ae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19533,18 +19450,8 @@
 			)
 		)
 		(pin "SDA" input
-			(at 262.89 130.81 180)
-			(uuid "b69ac03f-b502-4e26-961d-5b48737e277f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DS_Vin" input
-			(at 262.89 124.46 180)
-			(uuid "0ee17517-90ee-43c1-a13f-0f97f143db2d")
+			(at 262.89 128.27 180)
+			(uuid "8d3646de-a216-4fdf-a454-b5aa9a6ed8c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,7 +19857,7 @@
 				(justify right)
 			)
 		)
-		(pin "DS_SCL" bidirectional
+		(pin "DS_CLK" bidirectional
 			(at 193.04 132.08 180)
 			(uuid "cdd2dded-d597-46fd-92da-081a3f4cda50")
 			(effects
@@ -19960,7 +19867,7 @@
 				(justify left)
 			)
 		)
-		(pin "DS_SDA" bidirectional
+		(pin "DS_MOSI" bidirectional
 			(at 193.04 128.27 180)
 			(uuid "48390fbf-f77c-425f-9dcf-6c244848be4c")
 			(effects

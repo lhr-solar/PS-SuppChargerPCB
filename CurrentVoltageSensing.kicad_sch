@@ -6603,7 +6603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PS-Supp-Footprints:PSR100KTQFJ2L00_ROM"
+		(property "Footprint" "PS-Supp-Footprints:PMR100HZPFU10L0"
 			(at 71.628 58.42 90)
 			(hide yes)
 			(show_name no)
