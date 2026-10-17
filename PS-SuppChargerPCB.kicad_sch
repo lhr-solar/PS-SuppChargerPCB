@@ -11375,7 +11375,7 @@
 		)
 		(uuid "4fcd59e3-27b0-4eec-a010-d83f0c1766fe")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 67.31 44.45 0)
 		(effects
 			(font
@@ -11485,7 +11485,7 @@
 		)
 		(uuid "79fb589a-f255-475d-8991-bb5ea597bb26")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 67.31 41.91 0)
 		(effects
 			(font
@@ -11565,7 +11565,7 @@
 		)
 		(uuid "a5459b95-fc5f-48e1-a762-56d2c5ad9c95")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 228.6 129.54 0)
 		(effects
 			(font
@@ -11665,7 +11665,7 @@
 		)
 		(uuid "c98b3f13-dbfe-4700-8703-97019773ec83")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 228.6 127 0)
 		(effects
 			(font
@@ -11837,7 +11837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001a76a5-669c-4fc5-bf3a-7758379938d3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11897,7 +11897,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12005,7 +12005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0260fb10-dc69-4a7f-9b77-5aea8ec236c7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR01"
 			(at 229.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12065,7 +12065,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR024")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12083,7 +12083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b6d309-f552-4789-9d7f-1d5fd05a9e7c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR012"
 			(at 270.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12143,7 +12143,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR035")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12161,7 +12161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063de5c7-be7d-4bed-bb9d-66e637c3b4cf")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 222.25 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12221,7 +12221,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12238,7 +12238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0de96ce0-4fe1-4918-a862-0edc5e609802")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 223.52 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12311,7 +12311,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12329,7 +12329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12ee5bb1-f164-4ebd-84ba-49b35854ce7b")
-		(property "Reference" "D13"
+		(property "Reference" "D11"
 			(at 260.35 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +12413,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12430,7 +12430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17edc220-0808-4975-b1d3-032b7906e410")
-		(property "Reference" "TP1"
+		(property "Reference" "TP8"
 			(at 66.04 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +12491,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP1")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12601,7 +12601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a6f8529-f7c2-4e2c-9f57-3662f31c2dd1")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 213.36 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12685,7 +12685,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12703,7 +12703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231a06f9-5f50-4e5f-b26e-726494cf9c03")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 213.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12787,7 +12787,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12805,7 +12805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2392cb1e-8594-42bc-9258-fce13a183a6b")
-		(property "Reference" "D11"
+		(property "Reference" "D6"
 			(at 254 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12889,7 +12889,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12907,7 +12907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23add658-d32d-42ad-8785-8c803e8099ea")
-		(property "Reference" "D1"
+		(property "Reference" "D12"
 			(at 132.3975 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13024,7 +13024,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D1")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -13041,7 +13041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24e6ee98-56de-44b3-aaa2-1d7208e882d3")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 215.9 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13114,7 +13114,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13131,7 +13131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26743d3e-45e2-4ab5-ac26-8cef96f33c94")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 264.16 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13204,7 +13204,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26fbad40-ea6f-4067-94d0-0ccf232ea301")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 223.52 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13294,7 +13294,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13312,7 +13312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f03c6d-2a89-4c19-8e6f-387627c9bf92")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 25.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13372,7 +13372,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13389,7 +13389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29848e62-7ab7-41f7-bbc7-f06239eaa1d3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 66.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13449,7 +13449,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13466,7 +13466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ddaed7d-7b8c-462b-8d74-e6a23a6c8da9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR021"
 			(at 76.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13526,7 +13526,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13543,7 +13543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "404ef7e3-5bad-45b6-8ae9-a33444105be1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13603,7 +13603,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13700,7 +13700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "449abd1f-9b33-47e0-8031-be5704262cd5")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 223.52 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13773,7 +13773,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13791,7 +13791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d2edea-ce20-4200-a4f9-d6f83c23ae25")
-		(property "Reference" "D3"
+		(property "Reference" "D9"
 			(at 205.74 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13875,7 +13875,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13893,7 +13893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d71252-296d-4e29-ac19-8eea15acd861")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR04"
 			(at 229.87 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13953,7 +13953,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR025")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13970,7 +13970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "465a298b-636f-464a-9213-419fce8eadd0")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 264.16 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14043,7 +14043,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14061,7 +14061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b90f60f-2ad0-4bb6-a404-2f8589f716ef")
-		(property "Reference" "D9"
+		(property "Reference" "D2"
 			(at 254 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14145,7 +14145,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D9")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14162,7 +14162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51399683-4d3a-4b6c-9f29-52ff415e36f6")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 29.21 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14237,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55849d2a-a077-42b7-8349-d3a38e623b84")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 213.36 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14543,7 +14543,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14561,7 +14561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56835f72-2260-4187-8d03-5e6df181c56c")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 240.03 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14633,7 +14633,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14650,7 +14650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a040154-a234-4ec9-bbae-3e7b90b08583")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 144.018 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +14711,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -14728,7 +14728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c659361-a0fa-4d63-b8e9-06ccea26818a")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 264.16 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14801,7 +14801,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14819,7 +14819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619032b5-7bbc-4f93-ab55-5b861dd10d8b")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 262.89 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14891,7 +14891,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14909,7 +14909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c77753-3c38-4cb0-969b-09237ccc449a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR033"
 			(at 36.83 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14969,7 +14969,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR04")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14986,7 +14986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68225511-fc52-499e-a296-c53916eb8f1e")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 196.85 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15059,7 +15059,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15076,7 +15076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a0d60e5-d3db-48d2-aaaa-c2df1cff1aed")
-		(property "Reference" "TP5"
+		(property "Reference" "TP9"
 			(at 120.904 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +15137,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP5")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -15155,7 +15155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74927151-9c82-4cdb-a25a-176ec0889890")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 75.184 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15216,7 +15216,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15234,7 +15234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d7d3ff-9e63-4631-ad99-13aa21f07337")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR034"
 			(at 137.16 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15294,7 +15294,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR014")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15312,7 +15312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa6bdf7-d45f-455d-b3d9-70e9d509df53")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR05"
 			(at 270.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15372,7 +15372,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR033")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd57fae-590a-49bb-852c-4a3c58d58d3f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR07"
 			(at 270.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15450,7 +15450,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR034")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15468,7 +15468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef8599e-b077-4b0b-83cf-d3e5afdc6b17")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR011"
 			(at 229.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15528,7 +15528,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR027")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15546,7 +15546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822c5c51-1ea7-47ad-8d9e-bbbff6e822ff")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR02"
 			(at 270.51 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15606,7 +15606,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR032")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15623,7 +15623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "822f3170-85aa-4be9-8107-bf9082f6e8e7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15683,7 +15683,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15701,7 +15701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82bbfee5-4268-44ed-b44a-02be1cf91cc0")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 68.58 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15776,7 +15776,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15793,7 +15793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "854e2207-6ce3-484c-9e16-082036b68d47")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR027"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15853,7 +15853,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR011")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15961,7 +15961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e408a1c-1d88-4cc0-8581-db3a7b448d54")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 170.18 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16022,7 +16022,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16121,7 +16121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9085e2b9-c460-4721-b98d-537d258c3677")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 216.154 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,7 +16194,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16211,7 +16211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a57c764-a324-4d44-82c4-1052ee157754")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR024"
 			(at 259.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16271,7 +16271,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR030")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16289,7 +16289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b98e48a-06b1-45c1-9dff-615a8a963d87")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 233.68 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,7 +16373,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -16390,7 +16390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c292aa9-15de-4919-a140-673cc06292df")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 163.83 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16450,7 +16450,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16467,7 +16467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9da07fc4-09e0-47b2-a731-bf12fe761113")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 165.1 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16531,7 +16531,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -16638,7 +16638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a298869a-c9fa-487d-a5a6-e493f961d4b7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR031"
 			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16698,7 +16698,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16715,7 +16715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac426bb9-bc1f-4744-a5f2-28bf18be1659")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 91.44 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16775,7 +16775,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -16792,7 +16792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad8abb1e-2e12-46d1-999e-53223f56857a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 83.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16852,7 +16852,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16972,7 +16972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afc1dcf1-3045-49f8-8280-c068c6a7e1b2")
-		(property "Reference" "TP8"
+		(property "Reference" "TP5"
 			(at 159.004 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17033,7 +17033,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP8")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -17141,7 +17141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f48b10-f410-4e01-87aa-77418aec9a33")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR015"
 			(at 250.19 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17201,7 +17201,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR028")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17218,7 +17218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4487d21-8afa-41b2-8606-7fc9ebc79d2a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR016"
 			(at 255.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17278,7 +17278,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR029")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17295,7 +17295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7dd7fc9-bf83-4960-b7a7-0d5e32157160")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 81.788 179.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17370,7 +17370,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17388,7 +17388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba086923-8446-469b-8a76-c8032eb3fe90")
-		(property "Reference" "TP7"
+		(property "Reference" "TP2"
 			(at 155.956 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17449,7 +17449,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP7")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17466,7 +17466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c221978c-8db8-4930-ba3d-daf1ed935009")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR018"
 			(at 36.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17526,7 +17526,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR03")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17543,7 +17543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c422d814-3fe8-4332-b65a-d265dcf0de25")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 270.51 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17616,7 +17616,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17633,7 +17633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5a7eb29-f17f-4777-a5bf-9f31ed0364f8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR032"
 			(at 171.45 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17694,7 +17694,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR018")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17711,7 +17711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6559fd2-dea9-4170-95d7-c6b2e07cd39d")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 264.16 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17784,7 +17784,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17802,7 +17802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86e4074-b7c8-44f2-b27e-e64a982b29f9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR017"
 			(at 276.86 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17862,7 +17862,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR036")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17880,7 +17880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccf6bfe2-5d57-4e8a-a3a2-9dc3946b01f6")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 254 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17964,7 +17964,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -17981,7 +17981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc47c57-c15d-4ef2-90f1-0159f9ae0a0f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 228.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -18041,7 +18041,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18139,7 +18139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33afaec-419f-43f1-9b12-fa8fa4dd1667")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR06"
 			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18199,7 +18199,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR026")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18217,7 +18217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8ee2935-b93f-4554-9136-473f0e48cb5b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR029"
 			(at 30.48 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18277,7 +18277,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR02")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18295,7 +18295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efa5a9ad-2fcd-4ba7-b009-f863a7e049d3")
-		(property "Reference" "D2"
+		(property "Reference" "D13"
 			(at 132.3975 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18412,7 +18412,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D2")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -18429,7 +18429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f405d6d4-65e3-4ed1-bfde-47192f05653e")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 162.56 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18490,7 +18490,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -18507,7 +18507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f8dcea-cf01-4c65-8434-a2b775c11b4f")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 82.042 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18582,7 +18582,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18599,7 +18599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7ec0b9e-1841-4c1c-aa46-d10868529a48")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 223.52 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18672,7 +18672,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18690,7 +18690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8767289-a157-4960-9ce6-6eef156788ea")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 65.024 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18751,7 +18751,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18769,7 +18769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa799758-29f1-41a9-81f4-7088f5b4f304")
-		(property "Reference" "D10"
+		(property "Reference" "D4"
 			(at 254 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18853,7 +18853,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -18871,7 +18871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb217d75-33c3-4eb3-a2cb-6ec79082b82f")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 68.58 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18946,7 +18946,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18963,7 +18963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff99d2b2-34c2-4b59-8a5e-f82117b51e9f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR023"
 			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -19023,7 +19023,7 @@
 		(instances
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
