@@ -21619,6 +21619,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 102.87) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30cf882-f7ba-4c9c-8710-e37ec7e8902a")
+	)
+	(wire
+		(pts
 			(xy 50.8 80.01) (xy 58.42 80.01)
 		)
 		(stroke
@@ -21906,6 +21916,16 @@
 			(type default)
 		)
 		(uuid "d32c737f-80c6-4c00-a457-481a13886c98")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d469f1d7-98ba-489d-9e8b-a4f47875f96d")
 	)
 	(wire
 		(pts
@@ -22387,6 +22407,16 @@
 		)
 		(uuid "5e7aa190-39b9-4148-983c-1ff607beacd6")
 	)
+	(label "PS_VOUT"
+		(at 43.18 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62509657-f49e-4d9a-986f-6d9d5e546f37")
+	)
 	(label "12VBB_PG"
 		(at 228.6 137.16 0)
 		(effects
@@ -22596,16 +22626,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1742372-28b1-4c43-a60f-a13fd9d06353")
-	)
-	(label "GND"
-		(at 43.18 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7a1d0fe-5df3-4f9a-b3bb-d1c946584def")
 	)
 	(label "USB_D+"
 		(at 228.6 127 0)
@@ -25063,7 +25083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
 			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -29062,6 +29082,83 @@
 			(project "PS-SuppChargerPCB"
 				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb4cce36-5f78-4590-b798-737571d6b252")
+		(property "Reference" "#PWR037"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9ed695b-17e6-4243-bb44-ddf2cec0fb41")
+		)
+		(instances
+			(project "PS-SuppChargerPCB"
+				(path "/bb6ce8fd-e1af-464e-bfef-c3b4f18a2cee"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
