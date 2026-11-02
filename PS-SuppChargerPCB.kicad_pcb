@@ -10754,7 +10754,7 @@
 	(footprint "LHRS_Logos:LHRs_LOGO"
 		(layer "F.Cu")
 		(uuid "3308973b-bfee-402b-9324-915549d205f8")
-		(at 122.8 230.3)
+		(at 165 190)
 		(property "Reference" "G***"
 			(at 2.286 8.128 0)
 			(layer "F.SilkS")
