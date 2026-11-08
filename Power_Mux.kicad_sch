@@ -1850,7 +1850,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1862,6 +1862,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
 			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1957,7 +1968,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 76.2 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -1969,6 +1980,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
 			(at 76.2 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2066,7 +2088,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2078,6 +2100,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 21.59 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2177,6 +2210,17 @@
 		)
 		(property "P/N" "TPS2117DRLR"
 			(at 60.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-TPS2117DRLR "
+			(at 60.96 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2290,7 +2334,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2302,6 +2346,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 39.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2399,7 +2454,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2411,6 +2466,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 35.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)

@@ -17063,6 +17063,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 110.49 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "11b94cda-b580-46a8-85d3-7be52612610a")
 		)
@@ -17202,6 +17213,17 @@
 		)
 		(property "LCSC P/N" "C1973203"
 			(at 95.25 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ10A-E3 "
+			(at 95.25 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17424,6 +17446,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 57.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "85737724-e810-450f-b96c-f177ff04424f")
 		)
@@ -17534,6 +17567,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 44.45 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3K "
 			(at 44.45 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17665,6 +17709,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 125.73 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19485fa2-f0bc-4d8a-995e-a8443e9246ea")
 		)
@@ -17752,7 +17807,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 254 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17775,6 +17830,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 254 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
 			(at 254 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17893,6 +17959,17 @@
 		)
 		(property "LCSC P/N" "C913432"
 			(at 80.518 174.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18025,7 +18102,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 46.99 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18048,6 +18125,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 46.99 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
 			(at 46.99 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18169,6 +18257,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18388,6 +18487,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 942-IRLML0030TRPBF "
+			(at 251.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75d5d925-1863-469e-a41b-1019e174f819")
 		)
@@ -18477,7 +18587,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 41.91 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -18501,6 +18611,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 41.91 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 41.91 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18597,7 +18718,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18620,6 +18741,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 81.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18718,7 +18850,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06034K70FKEA"
+		(property "P/N" "0603WAF4701T5E"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18741,6 +18873,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18855,6 +18998,17 @@
 		)
 		(property "LCSC P/N" "C435936"
 			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ24A-E3 "
+			(at 35.56 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19197,6 +19351,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab00a125-4d35-42c9-9f1f-f708c5a2940a")
 		)
@@ -19308,6 +19473,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
 			(at 55.88 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -19439,6 +19615,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 248.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b40b92e2-0e2d-4a03-a9f2-8381d10308af")
 		)
@@ -19549,6 +19736,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 74.93 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19771,6 +19969,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 217.17 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f8bfd99-1c14-4d30-86d6-b61c749510af")
 		)
@@ -19892,6 +20101,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 125.73 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77d3675b-232e-497e-b37c-ac505255ac30")
 		)
@@ -19978,7 +20198,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 41.91 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -20002,6 +20222,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 41.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 41.91 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20132,6 +20363,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f999dc28-c4e2-4968-8437-703b73ae1a64")
 		)
@@ -20235,6 +20477,17 @@
 		)
 		(property "LCSC P/N" "C913432"
 			(at 102.362 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 110.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20382,6 +20635,17 @@
 			)
 		)
 		(property "LCSC P/N" "C2959321"
+			(at 137.16 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 727-CYPD3177-24LQXQ "
 			(at 137.16 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20673,6 +20937,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW060349K9FKEC "
+			(at 46.99 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf7b8726-ea11-4b51-bcfb-bf3906d85e6c")
 		)
@@ -20877,6 +21152,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 72.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "0ef2726f-1911-4a2f-bc49-4c6fa2b8643e")
 		)
@@ -21034,6 +21320,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 259.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f13726f-72bd-4869-91dc-e0c607a6aad0")
 		)
@@ -21145,6 +21442,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 88.9 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060349K9FKEC "
 			(at 88.9 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -21367,6 +21675,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 240.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "318c49b5-7cc4-43da-b31c-da9ee9cfb8dd")
 		)
@@ -21476,6 +21795,17 @@
 		)
 		(property "LCSC P/N" "C1973203"
 			(at 95.25 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ10A-E3 "
+			(at 95.25 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21601,6 +21931,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 74.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 74.93 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

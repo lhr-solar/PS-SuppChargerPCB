@@ -214,6 +214,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 187-CL10C470JB8NNNC "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c9d57b-22e4-46a1-99aa-8b7f393aa203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/fef2d7c3-6cfa-4973-8f5d-647a6b4b3617")
 		(sheetname "/12VBuckBoost/")
@@ -396,6 +409,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f88a1cd4-ac57-4a31-85f6-9fa3a87d80ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 579-MCP1826S-3302EDB "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d402d04f-bf7f-4af2-be92-2e11076a7a99")
 			(effects
 				(font
 					(size 1 1)
@@ -882,6 +908,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f87595-d9dd-40fa-b5d6-6405e94e2322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/97dde744-62b2-4682-8613-db0212db7365")
 		(sheetname "/12VBuckBoost/")
@@ -1059,6 +1098,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "806fabd4-961a-4ac9-bcd5-a3beaf4acb80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c6461dd-2cad-4260-9c4a-bcbd893cbe94")
 			(effects
 				(font
 					(size 1 1)
@@ -1250,6 +1302,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d6b822e-81f3-47ea-a088-1bad9a3d352a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/83bf6b0b-65e2-4bc1-8241-287420d4ad27")
 		(sheetname "/12VBuckBoost/")
@@ -1408,12 +1473,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3dc7e82-bd3e-4f2e-aa9b-041de280aefb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8af2955-aac8-4fc0-9dcc-00b3d4f6a822")
 			(effects
 				(font
 					(size 1 1)
@@ -1605,6 +1683,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9843e793-93f8-4c3b-9df1-97fceaa0ee0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/b6f7fddf-5094-4649-a254-ca7d7b7924a1")
 		(sheetname "/USB_PD/")
@@ -1756,6 +1847,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "64021e9c-9409-4d3e-b97a-f34c937d2a10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7abc58ec-39c9-4166-8322-9001f8018c63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a182f228-9bd6-4902-8ba4-eec907d941a6")
 			(effects
 				(font
 					(size 1 1)
@@ -1940,6 +2057,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62076405-51b4-45e1-8e98-ad138b764733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTSTC193TBKT5A "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aa601d3-4383-4820-9ee5-32d37ab77d9c")
 			(effects
 				(font
 					(size 1 1)
@@ -2182,6 +2312,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ce8ee1e-4562-4297-960a-26c0cf36bff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/7899c3e5-f5ad-47fa-8582-95ee58a8470d")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -2346,6 +2489,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1cffbc7d-bc2e-4e21-a0bd-de879c189802")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d16d36d1-c53f-41a1-a814-f1dabcb91f42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "576b7ef9-d49f-402a-b493-f2cfbfb0cf43")
 			(effects
 				(font
 					(size 1 1)
@@ -2735,6 +2904,32 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0adadfcb-4403-46cd-94f7-53c19018f5fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060310R0FKEE "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c0632ea-cdd5-4ec2-a8d7-61a2f9159ded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7814c951-9095-4f8d-9e56-f938c21b373e/8060bb12-7829-45e6-9248-0ee1d1cfd5b8")
 		(sheetname "/CurrentVoltageSensing/")
@@ -2886,6 +3081,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0bb0e898-7aea-4d4f-92f3-b55f4a27c9c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "685db85d-de0d-47ac-ac02-e88fc5107d3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d98668-e57f-4af2-a547-c22c426d0aa7")
 			(effects
 				(font
 					(size 1 1)
@@ -3077,6 +3298,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6164cf4-6bf5-4d9e-a41b-f2f85f66f982")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/96d27f65-c4ab-4615-a85b-4016671e65da")
 		(sheetname "/12VBuckBoost/")
@@ -3246,6 +3480,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6e01929-20e2-48c7-bd18-6aff528df992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ10A-E3 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22189db1-3127-4e34-82f1-807ba5805272")
 			(effects
 				(font
 					(size 1 1)
@@ -3559,6 +3806,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8456a566-5884-4be5-9d71-de8f3824d9ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6d7f198-bad9-431b-b79e-0ca133f59120")
 			(effects
 				(font
 					(size 1 1)
@@ -5433,6 +5693,19 @@
 				)
 			)
 		)
+		(property "P/N" "ZJY200S0800TG01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "044d2c8d-7816-408c-9ead-aa95f5ec04ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/62959a0d-7d46-4ab6-879a-37e4e873f375/17f22fc7-dc4f-4ba6-974b-d13617f48966")
 		(sheetname "/Display/")
 		(sheetfile "Display.kicad_sch")
@@ -5772,6 +6045,32 @@
 				)
 			)
 		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73eb8565-3878-4ba5-860a-fb648ad75639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cc8c0ed-a306-4aee-9318-526eb03749e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7814c951-9095-4f8d-9e56-f938c21b373e/06ba8092-c3f7-4c7b-95a4-a3afd306bce3")
 		(sheetname "/CurrentVoltageSensing/")
@@ -5956,6 +6255,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW0603100KFKEE "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ef0fe8-7373-4dbc-ae07-6bc6f25e5950")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/aebf5d4f-ef40-4f0d-9b6a-e87c6af87ba8/a2a58f5c-5b53-4bfa-af1c-ad84b32d2305")
 		(sheetname "/12VBuck/")
@@ -6114,7 +6426,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06034K70FKEA"
+		(property "P/N" "0603WAF4701T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6133,6 +6445,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bdb1456-dcb8-46a8-8af9-3bf25929ea01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8e06263-dda4-4e71-8f62-e5ccdea637b2")
 			(effects
 				(font
 					(size 1 1)
@@ -6320,6 +6645,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41f6dc96-d035-442e-8c8e-3bf33cc8578e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-LM74502DDFR "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a5a77e6-9db3-4507-ae12-edcd8c8edf05")
 			(effects
 				(font
 					(size 1 1)
@@ -6643,12 +6981,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7df1100d-a912-4344-8171-03f983cc7aec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a888e6-ee11-4db7-be99-94badf7fadcd")
 			(effects
 				(font
 					(size 1 1)
@@ -6825,6 +7176,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7d98896-1c96-47d7-961d-20e581d98b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 821-SMBJ15CA "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f784348-4eb4-41d2-a941-c6d9797b44f4")
 			(effects
 				(font
 					(size 1 1)
@@ -7120,6 +7484,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc828058-9eda-4ca3-948a-6f7e3daa36dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98207129-24ee-44dc-91c4-04521a15633e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/465a298b-636f-464a-9213-419fce8eadd0")
 		(sheetname "/")
@@ -7278,6 +7668,32 @@
 				)
 			)
 		)
+		(property "P/N" " CRCW060322R0FKED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2c8eb45-9602-468b-9540-96da3f9811fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060322R0FKED "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a67c9f04-c124-4bb3-90a5-e50d4a4cc65b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/62959a0d-7d46-4ab6-879a-37e4e873f375/c2b8aac6-7b86-4e7b-a4c0-fd3455bec854")
 		(sheetname "/Display/")
@@ -7422,6 +7838,32 @@
 				)
 			)
 		)
+		(property "P/N" "575-4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5734ad62-0b78-4952-88fa-aca5f7a42f20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 534-575-4 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "545324ee-b0d9-4df6-ab7c-17c4edef6d63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dfe6633a-5731-41fa-b04c-60b04a2619c5")
 		(sheetname "/")
@@ -7537,6 +7979,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "683294bc-6a76-45a0-818d-6e1e70c6e5e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 638-19337R6GHBHCA01T "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95be92c3-5d08-45b2-a166-73ffddb0881f")
 			(effects
 				(font
 					(size 1 1)
@@ -7794,6 +8249,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b14c06e7-9775-4949-91a9-e0acacf2e185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8b8511-021d-415a-ba33-1f84d0f92c1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c422d814-3fe8-4332-b65a-d265dcf0de25")
 		(sheetname "/")
@@ -7971,6 +8452,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9efcd217-3209-41ab-81b2-d87935723459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060319K1FKEAH "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f65486-98b5-458b-8a86-148703df74fd")
 			(effects
 				(font
 					(size 1 1)
@@ -8322,6 +8816,32 @@
 				)
 			)
 		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3738f298-dba3-47a4-8b5a-7b3e6f918e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d9ff76d-5ab8-4bbf-bef9-4fbc2e8d60ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fa799758-29f1-41a9-81f4-7088f5b4f304")
 		(sheetname "/")
@@ -8517,6 +9037,32 @@
 				)
 			)
 		)
+		(property "P/N" "575-4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14ea872b-4185-405f-ab53-ddffb47bc107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 534-575-4 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c703e2a3-44f9-4871-b683-911c3913541c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/40920431-af8f-429c-adcf-dee946a41b74")
 		(sheetname "/")
@@ -8626,7 +9172,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8645,6 +9191,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b6265bf-3610-44a6-9848-6ec30cc33512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4402d298-50f6-4c0d-8587-89efd4c62221")
 			(effects
 				(font
 					(size 1 1)
@@ -8803,6 +9362,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3d3a8701-b101-4826-97ce-e1cc4dcf0cbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4889d3ad-b738-41dd-9b4b-61b19f563d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2888d09-ea73-4032-9001-be0273d61a37")
 			(effects
 				(font
 					(size 1 1)
@@ -8981,12 +9566,25 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" " CRCW060322R0FKED"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1bf9efc-ea33-4b9b-84e7-7b9bd7a5628d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060322R0FKED "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1baa6fc0-154a-40e6-b5cf-f8bd55544c24")
 			(effects
 				(font
 					(size 1 1)
@@ -9158,6 +9756,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d38bc289-13f4-4e0a-973b-d6d71666cbd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61f0af88-dca5-4c47-8df9-ae1c462297b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e02230f1-2272-476e-8b30-b1a154ce3323")
 			(effects
 				(font
 					(size 1 1)
@@ -9400,6 +10024,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 667-ERJ-8CWJR013V "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b274e4f-3a66-48f1-bb21-b77e4cf543e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/9b38183e-2f83-4729-a9ad-c4930a062d55")
 		(sheetname "/12VBuckBoost/")
@@ -9569,6 +10206,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4b3fa4c-2bf4-4f56-b921-ef0ed63c4397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 771-PSMN012-100YSFX "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f9aeb7-75a7-435f-9bf8-1ebae0f2bcd6")
 			(effects
 				(font
 					(size 1 1)
@@ -10091,6 +10741,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c36df42-ce29-4b32-93b7-641bf0b78f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d19abd75-9c78-4a87-ac5a-5959da36eadb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/26743d3e-45e2-4ab5-ac26-8cef96f33c94")
 		(sheetname "/")
@@ -10235,6 +10911,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" " LTC4357HDCB#TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531e8b88-ff9a-463c-8331-3b8037e45370")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 584-LTC4357HDCBTRPBF "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "186001de-62d3-41b5-8424-ee8a21bc1620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10657,6 +11359,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3L "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21ca05cd-7386-4c33-99e8-3d89d6848fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/a4deae88-7df1-4411-8ab3-b2332c17194a")
 		(sheetname "/PowerProtection/")
@@ -10949,6 +11664,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99ce41bc-fb4d-488c-b753-8319562e3684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce273db3-73b7-4196-aef3-2e089442e5bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/449abd1f-9b33-47e0-8031-be5704262cd5")
 		(sheetname "/")
@@ -11126,6 +11867,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8679758b-5a54-4590-aefb-da3557112ae2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbb3eea2-0c29-425d-b5b5-b55ba9c643ee")
 			(effects
 				(font
 					(size 1 1)
@@ -11618,12 +12372,25 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" " CRCW060322R0FKED"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c1811e0-0d3f-406c-86ed-eab88c983b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060322R0FKED "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "def0331e-933d-4a44-b6cb-49290848a1dd")
 			(effects
 				(font
 					(size 1 1)
@@ -11815,6 +12582,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da0a7ad2-775b-4f82-ac26-ab0c54a99549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/d3f175a9-e37b-48dd-9353-5a7b017d88b6")
 		(sheetname "/USB_PD/")
@@ -11992,6 +12772,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "322373c4-c80a-466e-9975-597cb686176b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16ee2cbd-65e3-4152-90e0-32ce59cc3b7f")
 			(effects
 				(font
 					(size 1 1)
@@ -12183,6 +12976,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 603-CC0603KR9BB224 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad54f67-5264-418f-9d32-d75289fce078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/042b9804-47b9-407a-87bf-5006a6aed699")
 		(sheetname "/PowerProtection/")
@@ -12341,7 +13147,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12360,6 +13166,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2875a393-d562-4738-9262-49b85e016400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1726ff00-6217-439f-9d64-f7070a87a6bf")
 			(effects
 				(font
 					(size 1 1)
@@ -12724,6 +13543,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7c8c318-d220-4db2-871d-6e50184ce812")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/857f6186-0589-4139-a132-e387c1ec91e1")
 		(sheetname "/USB_PD/")
@@ -12868,6 +13700,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" " LTC4357HDCB#TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71da85ba-30cd-4a15-bf8b-ef6356c36cd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 584-LTC4357HDCBTRPBF "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34b0b2b5-711e-4098-ab81-0549d12dfc39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13264,7 +14122,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13283,6 +14141,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ede5d70c-29e3-4310-9eb5-4833016f6b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b123b3b-8097-4507-912f-342d658be00b")
 			(effects
 				(font
 					(size 1 1)
@@ -13434,6 +14305,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "XT30U-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c48943e5-18ca-463b-8fa0-78f781a04c10")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13780,6 +14664,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e07ac64-1730-4309-9816-2b91ec1c08ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 640-USB4105-GF-A "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66133f3e-ff9a-4d26-80a2-694834ffc192")
 			(effects
 				(font
 					(size 1 1)
@@ -14184,6 +15081,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "770af34d-be1d-4ddf-9717-72a72c01da73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed24d3e3-5e07-4543-a06c-a22a9bb75b63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f7ec0b9e-1841-4c1c-aa46-d10868529a48")
 		(sheetname "/")
@@ -14391,6 +15314,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afab3721-c943-40a7-9e3e-81124329d87d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "621-B540C-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89e7bb59-9f74-4c49-93ca-5e5b3ae43b43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "621-B540C-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0678376f-8794-4562-bad7-cda3f91e84b2")
 			(effects
 				(font
 					(size 1 1)
@@ -14648,6 +15597,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 833-SMAF4758A-TP "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e717c10-e77d-4197-a6b5-a6e39aa3dbf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/03fbb6c3-15d6-4535-82c3-c84cadec759c")
 		(sheetname "/PowerProtection/")
@@ -14881,7 +15843,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3L "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14900,6 +15862,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98fe21fd-8fc7-45b7-b7ef-16e547b1ec1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b249cc-8fe0-4594-bbd3-bdff5fde85fb")
 			(effects
 				(font
 					(size 1 1)
@@ -15071,6 +16046,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1f959d8-14c5-4e2f-b71b-c2b5fc482eb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3a8f2ce-b40c-479e-94d0-fdab11b92b41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a73f84f-ca26-4235-8b0f-6e192613beab")
 			(effects
 				(font
 					(size 1 1)
@@ -15297,6 +16298,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a3a2065-257d-4ab6-a671-f29f960fd6c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 612-TL3365AF180QG "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3689b485-05e6-4aed-9a43-108d7f3b3a89")
 			(effects
 				(font
 					(size 1 1)
@@ -15627,7 +16641,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3L "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15646,6 +16660,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7a35398-24da-41ac-beb8-711cf6ef51a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b9f6f0-b86a-4c46-9ecf-427a90e7c505")
 			(effects
 				(font
 					(size 1 1)
@@ -15800,10 +16827,42 @@
 				)
 			)
 		)
+		(property "P/N" "PMR100HZPFU10L0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e91bc8bc-68a8-4d6d-9329-2e4e6c2a93fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 755-PMR100HZPFU10L0 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b40ae300-d70c-48e5-8dc0-1a7b247173b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7814c951-9095-4f8d-9e56-f938c21b373e/022c5b7f-031e-476c-b61a-9d1527dad76a")
 		(sheetname "/CurrentVoltageSensing/")
 		(sheetfile "CurrentVoltageSensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16141,12 +17200,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2e842bb-db26-48c0-aee5-1f8141c44cde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82994fb7-a7f6-4aba-891d-0a2112c5732c")
 			(effects
 				(font
 					(size 1 1)
@@ -16511,6 +17583,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW0603-15.8K-E3 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67e21ae1-873b-407a-a939-e3f03618ddc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/30175d18-769c-4cf5-98fe-c1abd5d1092e")
 		(sheetname "/PowerProtection/")
@@ -16680,6 +17765,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d836f3d-43af-437b-bf01-d5b86c2ae163")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 621-BAT760-7 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58fb79a4-1263-40e0-a73f-f5f1965de4bd")
 			(effects
 				(font
 					(size 1 1)
@@ -16985,6 +18083,32 @@
 				)
 			)
 		)
+		(property "P/N" "GRM1885C1H752JA01J"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e879c2d-510b-4e6f-9123-3cfe06cca5a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 81-GRM1885C1H752JA1J "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d140706b-f4c7-4501-9c82-d67df0a1804d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/193e6677-565d-46d8-a824-9e90906c285a")
 		(sheetname "/")
@@ -17136,6 +18260,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ad4918cd-0f6f-463a-b932-88628034614d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "718cc7c8-2454-4e5a-bf6c-d7b815221806")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ca5af5-a33d-407c-b036-4502cbdabf68")
 			(effects
 				(font
 					(size 1 1)
@@ -17327,6 +18477,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "882f32ff-61ce-4831-bc72-0d2328fbbe8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/fa3deb24-7133-4f8d-9ced-9154b6ac3e3a")
 		(sheetname "/USB_PD/")
@@ -17511,6 +18674,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 708-RNCF0603BTE11K1 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84f5988-2881-47c7-987d-26fd2b62fefd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/2278b310-6ba3-409b-90ad-92ff5f73a885")
 		(sheetname "/12VBuckBoost/")
@@ -17663,6 +18839,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9589f159-afe2-464c-8705-d128039b5f60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-TPS2117DRLR "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "740f4b06-aa6d-4e28-aefd-1cb27d789586")
 			(effects
 				(font
 					(size 1 1)
@@ -18084,6 +19273,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 576-SP0503BAHTG "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6cc80df-78c4-4d8e-a886-fe0eb3cca7b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?143*")
 		(path "/ec016523-8b34-47f1-ab1c-e2da371f5914/31c1c8b0-f199-43b5-8a72-395cd877a32e")
 		(sheetname "/USB-C_Connector/")
@@ -18370,6 +19572,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16658928-c570-4028-bd5d-de6cfea97ad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/8e3da36b-41e4-4842-91fa-ca12ab47a35a")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -18538,6 +19753,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c80f887e-226a-4b91-8a47-a6e9d4a7c597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 710-450406020024 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d25f097e-6b27-463b-9858-09a430d8b9bb")
 			(effects
 				(font
 					(size 1 1)
@@ -18944,6 +20172,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603KRX7R9BB105"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf6b5f23-8074-4006-9507-54f6edb69b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/c99346f3-cf25-4b2b-b50c-e7e063bd40c1")
 		(sheetname "/PowerProtection/")
@@ -19123,6 +20364,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f9ea5b0-db89-4a24-ac03-7a2c8cda70ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11dbf76a-39dc-4da7-bc32-c84a0e0a9c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 942-IRLML0030TRPBF "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53442d3a-03a9-4826-91f7-2c96a3e210eb")
 			(effects
 				(font
 					(size 1 1)
@@ -19420,6 +20687,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3K "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6333d5e5-eace-4ea6-8cdb-a4e829f1ae71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/b9ab7dc8-d6fd-4f66-84c8-09c0549e6db1")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -19571,6 +20851,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6258cf2c-d256-4c74-a80b-1b5e72e466a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d711135d-4dba-4df1-8a28-b7952e159e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64c969b2-6da1-425a-b29e-ae7780c0663e")
 			(effects
 				(font
 					(size 1 1)
@@ -19755,6 +21061,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bb1c891-e791-451d-b271-76e0a02a9253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 791-0603N270F500CT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56192a98-0c19-41b7-a9ec-f0618ea04e05")
 			(effects
 				(font
 					(size 1 1)
@@ -20106,6 +21425,32 @@
 				)
 			)
 		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6936b665-037d-4412-808e-d287c0278427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79922c28-6fb7-4c35-9ff0-ec430c4260b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/231a06f9-5f50-4e5f-b26e-726494cf9c03")
 		(sheetname "/")
@@ -20341,6 +21686,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "755ab7e3-d011-4da4-8cca-ad80bd585176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/70974b9b-eaf7-4075-b71b-7f2a4485f9f7")
 		(sheetname "/12VBuckBoost/")
@@ -20518,6 +21876,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fd6f569-dfc8-4715-a536-a6c050434835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "640590be-ec8f-49c5-8e5c-420c77f056d7")
 			(effects
 				(font
 					(size 1 1)
@@ -20709,6 +22080,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b21671ae-b9aa-40d4-9b1d-c44b5aa66808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/71d5dcdf-84d2-4be8-ba75-855053ea160b")
 		(sheetname "/USB_PD/")
@@ -20893,6 +22277,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6d2cafb-c0aa-4b9b-b80b-9871a731fb51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/12dd77b2-5462-4a69-bca8-5b0c69dcd630")
 		(sheetname "/USB_PD/")
@@ -21044,6 +22441,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "db31f4a0-cb25-4e26-a024-fc0007924241")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ecc76dd-103f-484c-99f4-c6bf04b09b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b2337b7-ddad-42a0-a131-1d9990317b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -21235,6 +22658,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31afbd21-6220-4f43-ac4d-5f9511004611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/e6442878-775b-4ba9-9aa6-5710e922e20c")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -21393,7 +22829,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21412,6 +22848,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9802ae28-ad70-4439-835b-2a5b9ee545fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91555766-f442-4093-aecb-f0047c872841")
 			(effects
 				(font
 					(size 1 1)
@@ -21603,6 +23052,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79a2bd42-ef28-4513-b2d1-0ebe2c1b37a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/7d0b5590-f433-4e1a-8abc-3ef86fe2c079")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -21787,6 +23249,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60580b5f-f18e-47ee-8673-6f10bae17082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/2b4cc3c1-aa0f-4d60-b1f3-5597c8984d3c")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -21938,6 +23413,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5742a3ac-0130-413b-ae56-b9a80b9e1221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW060316K0FKEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5505d58f-7aa0-460a-84ac-29943eeb3ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW0603-16K-E3 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d83113d6-3cf2-4edd-9139-69fea4646a49")
 			(effects
 				(font
 					(size 1 1)
@@ -22129,6 +23630,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW060349K9FKEC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "907d15f2-5c3c-4a47-ab08-698d8dfa1ef6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/e0ce470f-0317-462b-904d-b95875b962cd")
 		(sheetname "/USB_PD/")
@@ -22295,6 +23809,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14bf9098-2726-47c6-a708-9b63363a9ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 994-XAL5050-822MEC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13d4d40b-7fac-4856-8179-334d06621a8f")
 			(effects
 				(font
 					(size 1 1)
@@ -22533,6 +24060,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5089a868-907c-44d1-ac86-920948d26c98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 710-74439369082 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "482b6130-3ae3-44e5-8f35-819df4b16ca0")
 			(effects
 				(font
 					(size 1 1)
@@ -22806,6 +24346,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fe123bd-664b-4b83-abe6-9548be974e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 538-105309-1102 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b59386-3b21-46cb-8c35-3476b9181a9b")
 			(effects
 				(font
 					(size 1 1)
@@ -23366,6 +24919,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee6d0332-2079-4bd6-943d-230e796f5668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/a3fc789d-4793-4e2d-8e51-27fc0df9d152")
 		(sheetname "/USB_PD/")
@@ -23532,6 +25098,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84ab749e-5e0d-401d-af86-49b9a0f43d43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 511-STM32G473CET6 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2542963a-13e6-4e42-87b6-e8e3dff5dc0f")
 			(effects
 				(font
 					(size 1 1)
@@ -24582,6 +26161,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e4e88f3-30d2-45a5-b179-868ebfa468c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1000T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2ac5d8a-214e-408b-a432-ebfd248a4728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bf874b56-e4b7-4f07-8131-3efa32d6a54a/38b0785d-f9b5-4eae-8f7d-adb76e783c07")
 		(sheetname "/DiodeOR/")
@@ -24939,6 +26544,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6700f91-23f4-4603-81ba-fd327978c06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/988ccb65-036c-467e-a258-846b3ceb7a30")
 		(sheetname "/12VBuckBoost/")
@@ -25123,6 +26741,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "618db851-59fc-4278-bcb1-3a6864bee50e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/fd9abcbf-9f68-4d97-af25-d5b3e883aafe")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -25292,6 +26923,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8905b7af-aec1-4ec4-af5c-43f1e6c6ebcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 815-ABM3-8-D2Y-T "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bc916a3-64db-4135-aeba-3bcfbcb9b0c5")
 			(effects
 				(font
 					(size 1 1)
@@ -25639,12 +27283,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dec109b6-5780-442a-b8cc-3342852160bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45eea673-8998-4897-bbd7-290b495bd91d")
 			(effects
 				(font
 					(size 1 1)
@@ -25836,6 +27493,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f989ae-ab39-46fc-982e-bf76073dc46c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aebf5d4f-ef40-4f0d-9b6a-e87c6af87ba8/a5c64f4f-c674-4d50-80a7-5bee03f8aefe")
 		(sheetname "/12VBuck/")
@@ -25994,7 +27664,7 @@
 				)
 			)
 		)
-		(property "P/N" "MCT06030C3309FP500"
+		(property "P/N" " 71-CRCW060333R0FKEAC "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26013,6 +27683,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b902311f-3ecf-49c2-80ea-bd09f325b40c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060333R0FKEAC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e2f528a-3782-4c46-990c-1ae6c9c4c333")
 			(effects
 				(font
 					(size 1 1)
@@ -26204,6 +27887,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "760b5644-9d32-4081-bfc7-dbca3f5ae6e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/d38d2326-8796-407e-8b4f-a25213e4435c")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -26388,6 +28084,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37a25810-b400-4346-bc2a-a86a4e17f219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aebf5d4f-ef40-4f0d-9b6a-e87c6af87ba8/8f499efd-8f91-403e-8239-07b7c59cd6ee")
 		(sheetname "/12VBuck/")
@@ -26565,6 +28274,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb57820c-112d-4184-aa44-3d03e7df2bd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a383e8c0-8869-488e-9067-8a81de8e8905")
 			(effects
 				(font
 					(size 1 1)
@@ -27000,6 +28722,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70665088-2912-436d-98b1-f3a96cc65432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56f0077d-0c91-4408-b23c-a8d0e1a24b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/24e6ee98-56de-44b3-aaa2-1d7208e882d3")
 		(sheetname "/")
@@ -27171,12 +28919,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be0894b8-b3cc-4077-938a-99bc843a0716")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9321cb6c-0ca0-415d-a455-7527b51d080c")
 			(effects
 				(font
 					(size 1 1)
@@ -27391,6 +29152,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72114757-7371-40ac-ae9f-1585a136950a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "621-B540C-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dfd7b7a-3f71-4a41-8874-98ab935561cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "621-B540C-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d97d2c-c5cd-40e7-99a8-bdbcdc5561dc")
 			(effects
 				(font
 					(size 1 1)
@@ -27641,6 +29428,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "002d0039-9cd2-4207-8c74-34a3a7d2903b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 727-CYPD3177-24LQXQ "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71ff682-dee4-40d8-88bc-ab9b4244c165")
 			(effects
 				(font
 					(size 1 1)
@@ -28501,6 +30301,32 @@
 				)
 			)
 		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "551786b0-8162-42f7-b82f-23193ddc8f5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1426a8-3664-4c85-83c8-a9f55682fef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/aeb90c1b-6037-4d2d-ade7-6f619f44bb00")
 		(sheetname "/")
@@ -28736,6 +30562,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 791-0603N270F500CT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3561eb25-6a7d-4a74-87a6-32d3f0eea13f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/b1e645f2-79d7-47b7-ae93-5fc546dc9e22")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -28920,6 +30759,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW060349K9FKEC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9b346a9-cf4f-4a59-8fcc-e4a42880fffb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/c4ee23ba-9a17-4b51-9402-6939d9d03e04")
 		(sheetname "/USB_PD/")
@@ -29084,6 +30936,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3557dbc-b2b6-446d-9ba1-3a7e6bc5e44a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5d54abb-b93a-4a5d-a34d-239c015bd5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93f3de17-a8e5-487a-aa67-6a4df4aee360")
 			(effects
 				(font
 					(size 1 1)
@@ -29300,7 +31178,7 @@
 				)
 			)
 		)
-		(property "P/N" "TMK212BBJ106MGHT"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29319,6 +31197,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2eea6931-034d-4d19-a421-faf95f12d0c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3K "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "112e977a-0332-4b8f-90e2-6b7918ca87ca")
 			(effects
 				(font
 					(size 1 1)
@@ -29494,6 +31385,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9267c4a2-fcf9-41c4-ab0a-259b1380c148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9feb5c3e-b006-4716-aebd-4404b56c2e17")
 			(effects
 				(font
 					(size 1 1)
@@ -29886,6 +31790,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ff5d64-732a-4bbe-8e88-5a5299754303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/002eac17-a991-4772-9ebb-de85cb363c95")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -30037,6 +31954,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25b99e41-0d7f-4141-bb0c-56b4e1885612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "031b21a8-9c64-4e02-9a19-b558ef206c64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060310R0FKEE "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01f1db79-3207-4650-b0f3-438ae0fb226b")
 			(effects
 				(font
 					(size 1 1)
@@ -30212,6 +32155,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36726f0c-89df-4479-bf16-140d457a977a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 538-87832-0406 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5c6baf6-45cc-411a-a6d5-d0c306b72c39")
 			(effects
 				(font
 					(size 1 1)
@@ -30580,6 +32536,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c6b210-0de4-477d-ad14-2c272c1e00b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/a6537c39-bb64-438a-a9e3-10dd967c06cf")
 		(sheetname "/USB_PD/")
@@ -30738,12 +32707,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0eb10b38-e03d-4e1b-948e-db3a5a180e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b89d420-4e1c-4511-a083-c390b8d2bcd7")
 			(effects
 				(font
 					(size 1 1)
@@ -30909,7 +32891,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30928,6 +32910,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19c92045-a44c-479b-8634-e727a585b7ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cfbf6e4-2df5-4437-b4f9-37225d648710")
 			(effects
 				(font
 					(size 1 1)
@@ -31086,6 +33081,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ebe714a6-29b1-4526-b0ec-1a8a313d05d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF2201T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e830cd0a-69fa-4678-9333-a9cf6f0ee6bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF2201T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "236e862d-f4db-47b1-b577-5d096a6535f1")
 			(effects
 				(font
 					(size 1 1)
@@ -31262,6 +33283,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "821a4307-4368-4248-bfee-ba30b80a44e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 771-PSMN012-100YSFX "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3ca3416-82d3-4bcb-8aba-8cd1de339a8a")
 			(effects
 				(font
 					(size 1 1)
@@ -31810,6 +33844,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6cb207c-c573-41f7-97fb-1f620a95fcc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/64d97e6c-2d98-4a7b-935b-29c10d71b8c2")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -31974,6 +34021,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ee0ef720-eeaf-4096-8726-bd12035ef6b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "726cad4f-04e3-4287-99f4-8af528e3455b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d1b59dc-ec4b-4143-80dd-2e31a46b75e5")
 			(effects
 				(font
 					(size 1 1)
@@ -32190,7 +34263,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32209,6 +34282,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c5072e7-16ab-43cb-880b-775f07bb203e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf7e0b9c-20f2-4d79-89f6-e46daa6af869")
 			(effects
 				(font
 					(size 1 1)
@@ -32400,6 +34486,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 652-CR0603FX-1431ELF "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b6ca855-631b-46c2-8c55-3edbbc614ff8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/3e25252c-bb5a-4b7b-a381-bff3bcfd9857")
 		(sheetname "/12VBuckBoost/")
@@ -32584,6 +34683,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20ff7a6d-5f22-4c00-9a68-904b58bab09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/71720c98-05f2-4a26-b8aa-226bde641258")
 		(sheetname "/USB_PD/")
@@ -32742,6 +34854,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c1dd8f1-5723-416e-b204-e9f0948fff65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6763280-7ddd-48fd-a64b-536269512c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c659361-a0fa-4d63-b8e9-06ccea26818a")
 		(sheetname "/")
@@ -32893,6 +35031,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "16ede647-b108-4695-97a9-c3297d36abe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae2e6be2-be9b-4e2e-a225-ad252d5c35b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfbca3db-2bdb-4460-bda2-c45be9d84e95")
 			(effects
 				(font
 					(size 1 1)
@@ -33069,6 +35233,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75ef6cde-90b3-41ec-93af-1cb1b736a71d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "PESD15VL1BA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e2d49a1-57bc-4e15-9ba7-64c3018538d6")
 			(effects
 				(font
 					(size 1 1)
@@ -33390,6 +35567,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b8167e4-45a8-4330-801f-9c77bf6cc334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/97ff334c-10be-44cd-9023-f1b4529ba9d1")
 		(sheetname "/12VBuckBoost/")
@@ -33541,6 +35731,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c0b3a93f-a997-4d7d-824d-f4849e71109f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab7b35a-2d3e-41b3-bbb4-81e5eed80025")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1000T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "813a6c98-9a48-4879-a8bc-3012831884ce")
 			(effects
 				(font
 					(size 1 1)
@@ -33706,12 +35922,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00d215ce-96b1-42bc-8943-2c6d0a2dc1af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e6c3b9e-b465-4f36-96c9-14c470b27a5c")
 			(effects
 				(font
 					(size 1 1)
@@ -33883,6 +36112,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b713fb45-8f45-46f1-9d3c-ffaac0aae216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "240ea3ba-3bc1-4a46-9e36-e50ae133a035")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ad60d38-f62d-4578-98ec-d82e3b607391")
 			(effects
 				(font
 					(size 1 1)
@@ -34413,6 +36668,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF1003T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69df8d02-3c88-4911-ba8d-4aaf3d6bf9df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a941e723-6ec4-4c0b-bb6b-9fed1c6552d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/81cd1a4a-8cc5-47c2-bdcd-52cc2352742f")
 		(sheetname "/Peripherals/")
@@ -34582,6 +36863,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8ff1d4c-08b6-4c59-a0bc-cfbd9a0acd75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ10A-E3 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0adf2b5-6aed-4fdf-a339-c629ccef124c")
 			(effects
 				(font
 					(size 1 1)
@@ -35049,6 +37343,32 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW060315K0FKEA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b11173ae-c55f-4bd4-8503-4152d8ed8049")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW0603-15K-E3 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a241ae4-c65d-49e4-83fd-224fd94495d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fb217d75-33c3-4eb3-a2cb-6ec79082b82f")
 		(sheetname "/")
@@ -35220,12 +37540,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE  "
+		(property "P/N" "0603WAF1003T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac8e7fbd-3401-4ea7-912c-328f15e3b25c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a0afa0a-6e0e-41de-bdba-cc61cf5a1486")
 			(effects
 				(font
 					(size 1 1)
@@ -35417,6 +37750,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda35b3c-b393-48c6-91f4-54d08a31ffc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/fe425990-1ef1-4565-a987-b4304ee2f97a")
 		(sheetname "/USB_PD/")
@@ -35581,6 +37927,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02dea492-d817-451d-9a0d-237a403d3c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "985ec3eb-1970-4996-88da-8b0e1aa78085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e08bcdbc-fa9c-47c6-a90f-13926b201188")
 			(effects
 				(font
 					(size 1 1)
@@ -35797,6 +38169,32 @@
 				)
 			)
 		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a223e2dd-00dd-4749-84f1-6cc8782eec1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266d7f68-6f9d-4570-8776-2f83486f0c00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bf874b56-e4b7-4f07-8131-3efa32d6a54a/0caecceb-56d7-4360-8732-92633e3714f0")
 		(sheetname "/DiodeOR/")
@@ -35992,6 +38390,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70f968e9-0c36-4295-a65d-242941ee6364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 241-SBA130CH-AUR10A1 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9121028-a6f3-4c5e-8d14-56114fefa2dd")
 			(effects
 				(font
 					(size 1 1)
@@ -36300,12 +38711,25 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2524b1e-45ac-41d2-b573-68368fbe88a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e41a5a6-5439-442f-a26f-b13da6585f20")
 			(effects
 				(font
 					(size 1 1)
@@ -36497,6 +38921,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 603-RT0603BRE077K32L "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aed1ba26-7d2c-4784-9c89-2d417317963e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/be94d869-90f2-4669-bef8-7f9b9e85a653")
 		(sheetname "/PowerProtection/")
@@ -36661,6 +39098,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "662b2992-7edd-4b5b-a30d-8a467489e4f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78f30eb4-3c32-4575-8f8d-180d29e61d31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 859-LTST-C191KRKT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7af2b7e2-7c62-4f1a-91d9-5b7803a75d51")
 			(effects
 				(font
 					(size 1 1)
@@ -36898,6 +39361,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bfb5e73f-17de-46ed-af94-7b235f526e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf31e061-065c-4461-a7d0-b93b9e767f94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 942-IRLML0030TRPBF "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8698995f-869a-48be-a756-2ef7a7d94e97")
 			(effects
 				(font
 					(size 1 1)
@@ -37182,12 +39671,25 @@
 				)
 			)
 		)
-		(property "P/N" "CR0603-FX-4992ELF "
+		(property "P/N" " 791-RMC1/16K4992FTP "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "627c7aaf-eaea-4aac-954e-07054bdd3611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 791-RMC1/16K4992FTP "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02f836b5-527e-4734-8c17-31cd31de1c95")
 			(effects
 				(font
 					(size 1 1)
@@ -37658,6 +40160,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7bed1bf-0014-48af-a9bf-f3bbf8db45ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/2c45fc8a-bcc4-4313-aeca-374a3cb5e0de")
 		(sheetname "/PowerProtection/")
@@ -37835,6 +40350,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66969098-51dd-437d-8e89-c3279965bc0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 810-C2012X5R1H335K "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90180204-0b04-43dd-88ff-902149bc68e1")
 			(effects
 				(font
 					(size 1 1)
@@ -38169,6 +40697,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55e5bb58-67af-4611-8ff4-be77017b05d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 625-SMBJ24A-E3 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fa06af8-e795-477a-8e6e-405e74992ee2")
 			(effects
 				(font
 					(size 1 1)
@@ -38630,6 +41171,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 81-BLM18PG121SH1D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "862a1ada-d3b0-4106-8e65-83b1a4c8ecb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/de40b8ae-1bdf-43d4-b74f-91c8c0bfa2ee")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -38814,6 +41368,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 603-CC603KRX7R9BB103 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a860ab7-8c3f-477a-b029-9121671fe3ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/9b1ddc4f-24aa-46be-8d1e-e07bf585137f")
 		(sheetname "/PowerProtection/")
@@ -38965,6 +41532,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c3f5328-4a33-48b6-949a-ad49ab01b975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8d9cea-e205-4f22-adfd-20b382d3dfe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "891bf4a0-b4c0-48a8-9e9a-b29c40acea34")
 			(effects
 				(font
 					(size 1 1)
@@ -39130,6 +41723,32 @@
 				)
 			)
 		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "662261e2-9362-41ae-b045-8e255501e7b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1002T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41ee0a19-ea23-471d-996f-9704d0cbc685")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7814c951-9095-4f8d-9e56-f938c21b373e/b49824d4-ba40-45a3-b4bb-f3a4ea4dbfce")
 		(sheetname "/CurrentVoltageSensing/")
@@ -39288,7 +41907,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39307,6 +41926,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5007804-77a8-434a-95c0-52c8829bddd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1001T5E "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2614c219-247a-4a9d-86b7-61a45b1ea07b")
 			(effects
 				(font
 					(size 1 1)
@@ -39921,12 +42553,25 @@
 				)
 			)
 		)
-		(property "P/N" "08055D475KAT4A"
+		(property "P/N" "VJ0805G475MXXTWBC "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "266063c0-7f4b-425e-a149-ed4fbc560332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 77-VJ0805G475MXXTWBC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7cff549-ddab-45e7-9b4a-2a1842e80693")
 			(effects
 				(font
 					(size 1 1)
@@ -40085,6 +42730,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "347efbed-8dd7-4903-bb68-44de93b19fa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "INA226AIDGST"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea5a7ef-e6da-4e95-a52b-2f5cda1ad93b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-INA226AIDGST "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6291f5da-d074-4d5e-8d30-c9db88e469d4")
 			(effects
 				(font
 					(size 1 1)
@@ -40494,6 +43165,32 @@
 				)
 			)
 		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "999fb841-9130-44c6-b35e-324b9ecbb8b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27dcf5cf-e026-4808-b4fd-6235fec44087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bf874b56-e4b7-4f07-8131-3efa32d6a54a/92c788c2-7598-412c-a9ad-2089df20fbd1")
 		(sheetname "/DiodeOR/")
@@ -40678,6 +43375,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d445bfe1-fffc-47b0-b7e8-ab620161cac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/97d0a934-f6bc-4e88-9f50-f07f86280893")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -40831,6 +43541,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04e0d6fe-1e6c-4d8c-a0ec-fba518aed8e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-TPS552872RYQR "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8103564f-ab7d-4604-921d-bbec80088347")
 			(effects
 				(font
 					(size 1 1)
@@ -41286,12 +44009,25 @@
 				)
 			)
 		)
-		(property "P/N" "C0805B475K050T"
+		(property "P/N" "VJ0805G475MXXTWBC "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7ec0efa-bcdc-458a-8961-d38425f9b585")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 77-VJ0805G475MXXTWBC "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c12bb11-02bc-4da4-a32b-8241c8e81d2f")
 			(effects
 				(font
 					(size 1 1)
@@ -41467,6 +44203,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "329da6ec-3786-404e-a1ab-4d684751853b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 781-SI7997DP-T1-GE3 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f41a2f38-42f9-4eef-92de-31d3870395ae")
 			(effects
 				(font
 					(size 1 1)
@@ -41858,6 +44607,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f906297f-7684-4697-82dc-8f8c43c50f85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/f07653c5-8d88-4702-88df-582da9d44e81")
 		(sheetname "/PowerProtection/")
@@ -42220,6 +44982,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94556650-5fd2-46eb-9b30-28eb73d008cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/5e3f6bbb-a169-4a2c-9284-41aa92c7f6a3")
 		(sheetname "/12VBuckBoost/")
@@ -42371,6 +45146,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2be8141c-2c34-4326-8ad0-e8b01a753e7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1003T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8ae065b-313b-4517-9033-3c398cd8436f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde5cbd8-ca1b-48d9-adc0-5b9ad204a243")
 			(effects
 				(font
 					(size 1 1)
@@ -42555,6 +45356,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7745e41-fc14-4c6d-8b33-e6d8f326d718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 942-IRLML0030TRPBF "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "850ad820-9285-4133-988f-fc3709e42d5a")
 			(effects
 				(font
 					(size 1 1)
@@ -42944,12 +45758,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04bdc1c4-33ec-44d6-a86e-464542236a71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a9bd91e-7d51-4b6e-b17e-c07412530534")
 			(effects
 				(font
 					(size 1 1)
@@ -43141,6 +45968,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3K "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ea93cd-925b-443b-8313-0ddeca5e6acb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/1f990e95-5f90-4223-85ea-d35dc40c5727")
 		(sheetname "/USB_PD/")
@@ -43292,6 +46132,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "03bc9d5b-97da-4c71-9fb0-a8d2af5de5d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57530084-f794-4091-a356-3e1c84629a03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF4701T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "149a1352-033d-4d86-8233-195256299eb8")
 			(effects
 				(font
 					(size 1 1)
@@ -43476,6 +46342,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4557bed2-189a-477d-a239-492a98310e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASU168SB5105KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "567289a1-9590-4a6a-8a56-cfbabea1aca7")
 			(effects
 				(font
 					(size 1 1)
@@ -43981,6 +46860,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 791-0603N910J500CT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ae2318-c69a-4558-bc20-cdeb1b508873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/6f772afe-4a5b-4603-8795-b1a972281c1a")
 		(sheetname "/12VBuckBoost/")
@@ -44165,6 +47057,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f37269fa-2dbb-49c8-978b-eb61b5469a4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8c28a4-c24a-4585-be32-9284d6648335/56f00524-7fcd-4012-b135-06da0f3acfa7")
 		(sheetname "/12VBuckBoost/")
@@ -44278,7 +47183,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR51635XDDCR"
+		(property "Value" "LMR51635YFDDCR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44314,7 +47219,7 @@
 				)
 			)
 		)
-		(property "P/N" "LMR51635XDDCR"
+		(property "P/N" "LMR51635YFDDCR "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44333,6 +47238,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b49e2538-5510-4dc8-96fc-7fb92bd96780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 579-MCP1826S-3302EDB "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5217bc-e93e-4e7f-a6b7-147a7ceb7226")
 			(effects
 				(font
 					(size 1 1)
@@ -44597,6 +47515,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 81-BLM18PG121SH1D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c760fe08-313d-4c25-abeb-4124dd45ec3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a08c0d72-2b4d-4df5-af0e-616f80f6e7bf/dc00c9b9-366d-4632-b955-a9cb4062bc78/42a965bd-dd19-4214-a5c9-ab641113c3d8")
 		(sheetname "/Peripherals/48PinMCU/")
@@ -44774,6 +47705,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06f05579-5cac-42ab-bfa3-f382768515fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d9903eb-6584-471d-942d-ea5abf00cb39")
 			(effects
 				(font
 					(size 1 1)
@@ -44965,6 +47909,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6529b519-861f-481b-aa45-e138073d0650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0c013a70-ec03-4913-a24e-33c4630278d4/815249d7-815a-4e4e-9b24-4d3033694326")
 		(sheetname "/USB_PD/")
@@ -45149,6 +48106,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3e60a4c-bd2c-41b7-b9b2-063b68206546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2cf5818b-529e-491f-8ffd-d4b5d2111841/dc50b215-6e88-4055-b18d-dec3d913aa62")
 		(sheetname "/PowerProtection/")
@@ -45326,6 +48296,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5de0e2b5-2d2c-4277-9ef7-5a44d4ab8ef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW06035K10FKEC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e714ef05-c91b-4b81-826b-a8eb1fbe50c3")
 			(effects
 				(font
 					(size 1 1)
@@ -46055,6 +49038,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "600c4ba7-6318-4762-aab2-63d24e265164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb4104b7-176d-4f08-8be2-4be3d07dd7d6")
 			(effects
 				(font
 					(size 1 1)

@@ -1866,7 +1866,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3L "
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1889,6 +1889,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L"
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2014,6 +2025,17 @@
 			)
 		)
 		(property "LCSC P/N" "C126055"
+			(at 58.42 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 579-MCP1826S-3302EDB "
 			(at 58.42 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2157,6 +2179,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 241-SBA130CH-AUR10A1 "
+			(at 39.37 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
 		)
@@ -2245,7 +2278,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" " 81-GRM21BR61H106KE3L "
 			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2268,6 +2301,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 45.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L"
 			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)

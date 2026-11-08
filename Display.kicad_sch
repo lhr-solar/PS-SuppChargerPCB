@@ -10228,6 +10228,28 @@
 				)
 			)
 		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 93.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10B104KB8NNNC "
+			(at 93.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f765fd08-c79d-446d-be55-5c472d0d17a3")
 		)
@@ -10297,6 +10319,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "ZJY200S0800TG01"
 			(at 109.22 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10406,6 +10439,28 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 93.98 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" " CRCW060322R0FKED"
+			(at 93.98 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 71-CRCW060322R0FKED "
+			(at 93.98 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6823,7 +6823,7 @@
 				)
 			)
 		)
-		(property "P/N" "C0805B475K050T"
+		(property "P/N" "VJ0805G475MXXTWBC "
 			(at 120.65 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6835,6 +6835,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 120.65 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 77-VJ0805G475MXXTWBC "
 			(at 120.65 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6965,6 +6976,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 208.28 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "53335856-cf0f-4f00-a654-92ddf4d77d9a")
 		)
@@ -7076,6 +7098,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 241.3 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 708-RNCF0603BTE11K1 "
 			(at 241.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7293,6 +7326,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 652-CR0603FX-1431ELF "
+			(at 208.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d4d75f7-9c05-4599-9f07-600b4e545a5c")
 		)
@@ -7380,6 +7424,17 @@
 			)
 		)
 		(property "P/N" "74439369082"
+			(at 147.32 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 710-74439369082 "
 			(at 147.32 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -7610,6 +7665,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
+			(at 218.44 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "968ce769-9941-46af-b8f9-a8115bfbc09a")
 		)
@@ -7721,6 +7787,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 158.75 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
 			(at 158.75 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7852,6 +7929,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 791-0603N910J500CT "
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7268d839-de8c-475a-90af-f8fd568d02ac")
 		)
@@ -7962,6 +8050,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
 			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8092,6 +8191,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0746dd31-7f14-4980-937a-20aed32ec0a1")
 		)
@@ -8191,7 +8301,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE  "
+		(property "P/N" "0603WAF1003T5E"
 			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8203,6 +8313,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 241.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 303-0603WAF1003T5E "
 			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8303,6 +8424,17 @@
 			)
 		)
 		(property "P/N" "TPS552872RYQR"
+			(at 120.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 595-TPS552872RYQR "
 			(at 120.65 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8496,6 +8628,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9455c008-dbde-4958-a81b-55d068f9a992")
 		)
@@ -8606,6 +8749,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 135.89 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-MLASH168SB7104KT "
 			(at 135.89 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8736,6 +8890,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
+			(at 95.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1ec1264-2fed-497a-8f87-ef6362bbae27")
 		)
@@ -8846,6 +9011,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 185.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 963-GMK325BJ226MM-P "
 			(at 185.42 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8975,6 +9151,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" " 667-ERJ-8CWJR013V "
+			(at 229.87 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a4c3554-3fbe-442f-86eb-d1f121744660")
 		)
@@ -9075,7 +9262,7 @@
 				)
 			)
 		)
-		(property "P/N" "CR0603-FX-4992ELF "
+		(property "P/N" " 791-RMC1/16K4992FTP "
 			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9087,6 +9274,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 791-RMC1/16K4992FTP "
 			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9208,6 +9406,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 196.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" " 187-CL10C470JB8NNNC "
 			(at 196.85 62.23 0)
 			(hide yes)
 			(show_name no)
